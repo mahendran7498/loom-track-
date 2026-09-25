@@ -1,0 +1,4423 @@
+{
+  "createdAt": "2026-09-22T07:17:35.011Z",
+  "collections": {
+    "User": [
+      {
+        "_id": "6a86c63d1e6d62539dff5561",
+        "name": "System Admin",
+        "email": "admin@gmail.com",
+        "phoneNumber": "0000000000",
+        "password": "$2a$10$1T3VsZK/uVkoyzQZH.PlRON7U3QRSrlLumJBcDPw0h0vaT.qtaXom",
+        "role": "admin",
+        "profilePhoto": "",
+        "isActive": true,
+        "createdAt": "2026-08-20T09:17:49.350Z",
+        "updatedAt": "2026-09-22T07:15:42.766Z",
+        "__v": 0,
+        "lastLogin": "2026-09-21T12:46:11.460Z"
+      },
+      {
+        "_id": "6a8e94be1a39482dd5d8f91c",
+        "name": "SHUDAKAR",
+        "email": "sunshinefabrics@gmail.com",
+        "phoneNumber": "9876543210",
+        "companyName": "SUNSHINE FABRICS",
+        "password": "$2a$10$Obgq0qWAZZ7GF/oqVm9kZOW919ZrQFEo0nsUNxLIZmEMT2Eae2VnO",
+        "role": "owner",
+        "createdBy": "6a86c63d1e6d62539dff5561",
+        "profilePhoto": "",
+        "isActive": true,
+        "createdAt": "2026-08-26T07:24:46.589Z",
+        "updatedAt": "2026-09-18T09:49:10.169Z",
+        "__v": 0,
+        "lastLogin": "2026-09-18T09:49:10.169Z"
+      },
+      {
+        "_id": "6a8ea0081a39482dd5d8face",
+        "name": "RAM",
+        "email": "ram@gmail.com",
+        "phoneNumber": "9876543210",
+        "password": "$2a$10$v.nFec4uD/o2N8x.Vq3aluTwqjkoS5qrJKJ.v2/8KmHX98pkzNzc.",
+        "role": "general_manager",
+        "createdBy": "6a8e94be1a39482dd5d8f91c",
+        "profilePhoto": "",
+        "isActive": true,
+        "createdAt": "2026-08-26T08:12:56.548Z",
+        "updatedAt": "2026-09-21T06:10:35.655Z",
+        "__v": 0,
+        "lastLogin": "2026-09-21T06:10:35.655Z"
+      },
+      {
+        "_id": "6a8ea0d81a39482dd5d8fb03",
+        "name": "mahendran",
+        "email": "mahendranjaya7498@gmail.com",
+        "phoneNumber": "9043674143",
+        "password": "$2a$10$LEsp.DVpHYTxVkSIpJjziuEwHesjvGc0JaMyWIdSgJBV/z/WRBLd2",
+        "role": "employee",
+        "employee": "6a8ea0d81a39482dd5d8fb00",
+        "profilePhoto": "https://res.cloudinary.com/vatot25g/image/upload/v1788519234/mms/file_p2mlff.png",
+        "isActive": true,
+        "createdAt": "2026-08-26T08:16:24.429Z",
+        "updatedAt": "2026-09-21T09:25:49.983Z",
+        "__v": 0,
+        "lastLogin": "2026-09-21T09:25:49.983Z"
+      }
+    ],
+    "OilChange": [
+      {
+        "_id": "6a79c200295f49d92911c7f6",
+        "machine": "6a79c1dc295f49d92911c7b0",
+        "oilChangeDate": "2026-08-10T12:20:16.229Z",
+        "oilType": "",
+        "oilQuantity": null,
+        "remarks": "",
+        "reminderMonthsInterval": 6,
+        "reminderSent": false,
+        "nextOilChangeDate": "2027-02-10T12:20:16.229Z",
+        "createdAt": "2026-08-10T12:20:16.230Z",
+        "updatedAt": "2026-08-10T12:20:16.230Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a79c215295f49d92911c801",
+        "machine": "6a79c1dc295f49d92911c7b0",
+        "oilChangeDate": "2026-08-10T12:20:37.742Z",
+        "oilType": "f24",
+        "oilQuantity": 5,
+        "remarks": "awts",
+        "reminderMonthsInterval": 6,
+        "reminderSent": false,
+        "nextOilChangeDate": "2027-02-10T12:20:37.742Z",
+        "createdAt": "2026-08-10T12:20:37.743Z",
+        "updatedAt": "2026-08-10T12:20:37.743Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a7c63c7c6ac8dcea07aacf6",
+        "machine": "6a7c6391c6ac8dcea07aacdd",
+        "oilChangeDate": "2026-08-12T12:15:03.961Z",
+        "oilType": "mobile320",
+        "oilQuantity": 10,
+        "remarks": "cambox",
+        "reminderMonthsInterval": 6,
+        "reminderSent": false,
+        "nextOilChangeDate": "2027-02-12T12:15:03.961Z",
+        "createdAt": "2026-08-12T12:15:03.963Z",
+        "updatedAt": "2026-08-12T12:15:03.963Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a86c860f910e91d3de67ffd",
+        "machine": "6a7eea24fc5f83f5f0ce3116",
+        "oilChangeDate": "2026-08-20T09:26:56.850Z",
+        "oilType": "",
+        "oilQuantity": null,
+        "remarks": "",
+        "reminderMonthsInterval": 6,
+        "reminderSent": false,
+        "nextOilChangeDate": "2027-02-20T09:26:56.850Z",
+        "createdAt": "2026-08-20T09:26:56.850Z",
+        "updatedAt": "2026-08-20T09:26:56.850Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a86c861f910e91d3de68009",
+        "machine": "6a7eea24fc5f83f5f0ce3116",
+        "oilChangeDate": "2026-08-20T09:26:57.336Z",
+        "oilType": "",
+        "oilQuantity": null,
+        "remarks": "",
+        "reminderMonthsInterval": 6,
+        "reminderSent": false,
+        "nextOilChangeDate": "2027-02-20T09:26:57.336Z",
+        "createdAt": "2026-08-20T09:26:57.336Z",
+        "updatedAt": "2026-08-20T09:26:57.336Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a86c863f910e91d3de68015",
+        "machine": "6a7eea24fc5f83f5f0ce3116",
+        "oilChangeDate": "2026-08-20T09:26:59.301Z",
+        "oilType": "",
+        "oilQuantity": null,
+        "remarks": "",
+        "reminderMonthsInterval": 6,
+        "reminderSent": false,
+        "nextOilChangeDate": "2027-02-20T09:26:59.301Z",
+        "createdAt": "2026-08-20T09:26:59.301Z",
+        "updatedAt": "2026-08-20T09:26:59.301Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a8e856e0b27f942424cd3bd",
+        "machine": "6a7eea24fc5f83f5f0ce3116",
+        "oilChangeDate": "2026-08-26T06:19:26.697Z",
+        "oilType": "320",
+        "oilQuantity": 10,
+        "remarks": "cambox",
+        "reminderMonthsInterval": 6,
+        "reminderSent": false,
+        "nextOilChangeDate": "2027-02-26T06:19:26.697Z",
+        "createdAt": "2026-08-26T06:19:26.698Z",
+        "updatedAt": "2026-08-26T06:19:26.698Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a8e85870b27f942424cd3c9",
+        "machine": "6a7eea24fc5f83f5f0ce3116",
+        "oilChangeDate": "2026-08-26T06:19:51.711Z",
+        "oilType": "150",
+        "oilQuantity": 5,
+        "remarks": "Gearbox",
+        "reminderMonthsInterval": 6,
+        "reminderSent": false,
+        "nextOilChangeDate": "2027-02-26T06:19:51.711Z",
+        "createdAt": "2026-08-26T06:19:51.711Z",
+        "updatedAt": "2026-08-26T06:19:51.711Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a9aa02de941c0e105b67536",
+        "machine": "6a927408dd1fbdf3112e49fe",
+        "oilChangeDate": "2026-09-04T00:00:00.000Z",
+        "oilType": "zr95",
+        "oilQuantity": 5,
+        "changedBy": "6a8ea0d81a39482dd5d8fb00",
+        "remarks": "now yet to work",
+        "reminderMonthsInterval": 6,
+        "reminderSent": false,
+        "nextOilChangeDate": "2027-03-04T00:00:00.000Z",
+        "createdAt": "2026-09-04T10:40:45.267Z",
+        "updatedAt": "2026-09-05T07:14:03.518Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa5063f94bc121149aa582f",
+        "machine": "6a9be9c915953aab5f1d4d19",
+        "oilChangeDate": "2026-09-12T07:58:55.340Z",
+        "oilType": "huy",
+        "oilQuantity": 5,
+        "changedBy": "6a8ea0d81a39482dd5d8fb00",
+        "remarks": "changed",
+        "reminderMonthsInterval": 6,
+        "reminderSent": false,
+        "nextOilChangeDate": "2027-03-12T07:58:55.340Z",
+        "createdAt": "2026-09-12T07:58:55.342Z",
+        "updatedAt": "2026-09-12T07:58:55.342Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa794f864c4e48413c07961",
+        "machine": "6a9be9c915953aab5f1d4d19",
+        "oilChangeDate": "2026-03-13T00:00:00.000Z",
+        "oilType": "fzx",
+        "oilQuantity": 5,
+        "changedBy": "6a8ea0d81a39482dd5d8fb00",
+        "remarks": "good running",
+        "reminderMonthsInterval": 6,
+        "reminderSent": true,
+        "nextOilChangeDate": "2026-09-13T00:00:00.000Z",
+        "createdAt": "2026-09-14T06:32:24.730Z",
+        "updatedAt": "2026-09-18T09:22:31.530Z",
+        "__v": 0,
+        "reminderSentAt": "2026-09-18T09:22:31.530Z"
+      },
+      {
+        "_id": "6aa90f26fe8cb2fd78767bb0",
+        "machine": "6a9bebb515953aab5f1d4e12",
+        "oilChangeDate": "2026-09-15T00:00:00.000Z",
+        "oilType": "hjhjda",
+        "oilQuantity": 5,
+        "changedBy": "6a8ea0d81a39482dd5d8fb00",
+        "remarks": "next",
+        "reminderMonthsInterval": 6,
+        "reminderSent": false,
+        "nextOilChangeDate": "2027-03-15T00:00:00.000Z",
+        "createdAt": "2026-09-15T09:25:58.057Z",
+        "updatedAt": "2026-09-15T09:25:58.057Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa93913fe8cb2fd78768310",
+        "machine": "6a9beaab15953aab5f1d4daf",
+        "oilChangeDate": "2026-09-15T00:00:00.000Z",
+        "oilType": "fghjk",
+        "oilQuantity": 8,
+        "changedBy": "6a8ea0d81a39482dd5d8fb00",
+        "remarks": "qwertyui",
+        "reminderMonthsInterval": 6,
+        "reminderSent": false,
+        "nextOilChangeDate": "2027-03-15T00:00:00.000Z",
+        "createdAt": "2026-09-15T12:24:51.657Z",
+        "updatedAt": "2026-09-15T12:24:51.657Z",
+        "__v": 0
+      }
+    ],
+    "Maintenance": [
+      {
+        "_id": "6a79c26c295f49d92911c80c",
+        "machine": "6a79c1dc295f49d92911c7b0",
+        "maintenanceType": "Breakdown",
+        "description": "asdfghjkh",
+        "photos": [],
+        "videos": [],
+        "maintenanceDate": "2026-08-10T12:22:04.433Z",
+        "createdAt": "2026-08-10T12:22:04.434Z",
+        "updatedAt": "2026-08-10T12:22:04.434Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a7acae04e488fb634471da8",
+        "machine": "6a79c1dc295f49d92911c7b0",
+        "maintenanceType": "Breakdown",
+        "description": "over heating",
+        "photos": [],
+        "videos": [],
+        "maintenanceDate": "2026-08-11T07:10:24.795Z",
+        "createdAt": "2026-08-11T07:10:24.799Z",
+        "updatedAt": "2026-08-11T07:10:24.799Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a7acaea4e488fb634471db1",
+        "machine": "6a79c1dc295f49d92911c7b0",
+        "maintenanceType": "Corrective",
+        "description": "sefsf",
+        "photos": [],
+        "videos": [],
+        "maintenanceDate": "2026-08-11T07:10:34.928Z",
+        "createdAt": "2026-08-11T07:10:34.929Z",
+        "updatedAt": "2026-08-11T07:10:34.929Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a7acafb4e488fb634471dba",
+        "machine": "6a79c1dc295f49d92911c7b0",
+        "maintenanceType": "Preventive",
+        "description": "dvsvw",
+        "photos": [],
+        "videos": [],
+        "maintenanceDate": "2026-08-11T07:10:51.152Z",
+        "createdAt": "2026-08-11T07:10:51.153Z",
+        "updatedAt": "2026-08-11T07:10:51.153Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a7c63a9c6ac8dcea07aaced",
+        "machine": "6a7c6391c6ac8dcea07aacdd",
+        "maintenanceType": "Breakdown",
+        "description": "wbs",
+        "photos": [],
+        "videos": [],
+        "maintenanceDate": "2026-08-12T12:14:33.508Z",
+        "createdAt": "2026-08-12T12:14:33.510Z",
+        "updatedAt": "2026-08-12T12:14:33.510Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a8ea2001a39482dd5d8fc43",
+        "machine": "6a8e9f881a39482dd5d8fa8d",
+        "maintenanceType": "Breakdown",
+        "description": "cambox problem",
+        "photos": [],
+        "videos": [],
+        "approvalStatus": "Submitted",
+        "maintenanceDate": "2026-08-26T08:21:20.306Z",
+        "createdAt": "2026-08-26T08:21:20.308Z",
+        "updatedAt": "2026-08-26T08:21:20.308Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a8ea2451a39482dd5d8fc75",
+        "machine": "6a8e9f061a39482dd5d8fa77",
+        "maintenanceType": "Corrective",
+        "description": "loom not run",
+        "photos": [],
+        "videos": [],
+        "approvalStatus": "Submitted",
+        "maintenanceDate": "2026-08-26T08:22:29.731Z",
+        "createdAt": "2026-08-26T08:22:29.731Z",
+        "updatedAt": "2026-08-26T08:22:29.731Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a8ec3b127d243c5624a0473",
+        "machine": "6a8e9f061a39482dd5d8fa77",
+        "maintenanceType": "Breakdown",
+        "description": "",
+        "photos": [],
+        "videos": [],
+        "approvalStatus": "Submitted",
+        "maintenanceDate": "2026-08-26T10:45:05.855Z",
+        "createdAt": "2026-08-26T10:45:05.857Z",
+        "updatedAt": "2026-08-26T10:45:05.857Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a8ec48327d243c5624a053d",
+        "machine": "6a8e9f881a39482dd5d8fa8d",
+        "maintenanceType": "Corrective",
+        "description": "",
+        "photos": [],
+        "videos": [],
+        "performedBy": "6a8ea0d81a39482dd5d8fb00",
+        "approvalStatus": "Submitted",
+        "maintenanceDate": "2026-08-26T10:48:35.953Z",
+        "createdAt": "2026-08-26T10:48:35.954Z",
+        "updatedAt": "2026-08-26T10:48:35.954Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a9aa3b2e941c0e105b675ad",
+        "machine": "6a927408dd1fbdf3112e49fe",
+        "maintenanceType": "Breakdown",
+        "description": "oli problem",
+        "reminderSent": false,
+        "photos": [],
+        "videos": [],
+        "performedBy": "6a8ea0d81a39482dd5d8fb00",
+        "approvalStatus": "Submitted",
+        "maintenanceDate": "2026-09-04T10:55:46.084Z",
+        "createdAt": "2026-09-04T10:55:46.085Z",
+        "updatedAt": "2026-09-04T10:55:46.085Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a9aa3efe941c0e105b67606",
+        "machine": "6a927392dd1fbdf3112e49f2",
+        "maintenanceType": "Breakdown",
+        "description": "asdasda",
+        "reminderSent": false,
+        "photos": [],
+        "videos": [],
+        "performedBy": "6a8ea0d81a39482dd5d8fb00",
+        "approvalStatus": "Submitted",
+        "maintenanceDate": "2026-09-04T10:56:47.443Z",
+        "createdAt": "2026-09-04T10:56:47.444Z",
+        "updatedAt": "2026-09-04T10:56:47.444Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa50dbd94bc121149aa5d38",
+        "machine": "6a9beb6215953aab5f1d4df1",
+        "maintenanceType": "Preventive",
+        "maintenanceCategory": "General",
+        "componentsChecked": [],
+        "inspectionDetails": {
+          "currentCondition": "Good",
+          "running": "Running",
+          "problemFound": "no",
+          "whyStopped": "",
+          "downtime": 0,
+          "remarks": "okkkk"
+        },
+        "engineerName": "mahendran",
+        "sparePartsUsed": false,
+        "sparePartsDetails": [],
+        "finalStatus": "Completed",
+        "description": "okkkk",
+        "machineRunningHours": 0,
+        "nextMaintenanceDate": "2026-06-15T00:00:00.000Z",
+        "reminderSent": true,
+        "remarks": "okkkk",
+        "cost": 0,
+        "photos": [
+          "https://res.cloudinary.com/vatot25g/image/upload/v1789201766/mms/file_hlq4gw.png",
+          "https://res.cloudinary.com/vatot25g/image/upload/v1789201800/mms/file_u9suxm.png"
+        ],
+        "videos": [],
+        "performedBy": "6a8ea0d81a39482dd5d8fb00",
+        "approvalStatus": "Submitted",
+        "maintenanceDate": "2026-09-12T08:30:53.154Z",
+        "createdAt": "2026-09-12T08:30:53.155Z",
+        "updatedAt": "2026-09-14T06:25:55.383Z",
+        "__v": 0,
+        "reminderSentAt": "2026-09-14T06:25:55.382Z"
+      },
+      {
+        "_id": "6aa50dfb94bc121149aa5d83",
+        "machine": "6a9bdad838b787fadb79fad5",
+        "maintenanceType": "Preventive",
+        "maintenanceCategory": "General",
+        "componentsChecked": [],
+        "inspectionDetails": {
+          "currentCondition": "Good",
+          "running": "Running",
+          "problemFound": "no",
+          "whyStopped": "",
+          "downtime": 0,
+          "remarks": "hhjhjh"
+        },
+        "engineerName": "mahendran",
+        "sparePartsUsed": false,
+        "sparePartsDetails": [],
+        "finalStatus": "Completed",
+        "description": "hhjhjh",
+        "machineRunningHours": 0,
+        "nextMaintenanceDate": "2026-09-20T00:00:00.000Z",
+        "reminderSent": false,
+        "remarks": "hhjhjh",
+        "cost": 0,
+        "photos": [
+          "https://res.cloudinary.com/vatot25g/image/upload/v1789201842/mms/file_una4cv.png"
+        ],
+        "videos": [],
+        "performedBy": "6a8ea0d81a39482dd5d8fb00",
+        "approvalStatus": "Submitted",
+        "maintenanceDate": "2026-09-12T08:31:55.583Z",
+        "createdAt": "2026-09-12T08:31:55.584Z",
+        "updatedAt": "2026-09-12T08:31:55.584Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa5291494bc121149aa60d2",
+        "machine": "6a9beb6215953aab5f1d4df1",
+        "maintenanceType": "Preventive",
+        "maintenanceCategory": "General",
+        "componentsChecked": [],
+        "inspectionDetails": {
+          "currentCondition": "Good",
+          "machineStatus": "Running",
+          "running": "Running",
+          "whyStopped": "",
+          "downtime": 0,
+          "problemDescription": "",
+          "maintenanceDetails": "",
+          "remarks": "jjju"
+        },
+        "engineerName": "mahendran",
+        "sparePartsUsed": false,
+        "sparePartsDetails": [],
+        "finalStatus": "Completed",
+        "description": "jjju",
+        "machineRunningHours": 0,
+        "nextMaintenanceDate": "2027-02-15T00:00:00.000Z",
+        "reminderSent": false,
+        "remarks": "jjju",
+        "cost": 0,
+        "photos": [
+          "https://res.cloudinary.com/vatot25g/image/upload/v1789208769/mms/file_jmaubb.png",
+          "https://res.cloudinary.com/vatot25g/image/upload/v1789208799/mms/file_zqbdnp.png"
+        ],
+        "videos": [],
+        "performedBy": "6a8ea0d81a39482dd5d8fb00",
+        "approvalStatus": "Submitted",
+        "maintenanceDate": "2026-09-12T10:27:32.237Z",
+        "createdAt": "2026-09-12T10:27:32.238Z",
+        "updatedAt": "2026-09-12T10:27:32.238Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa5294e94bc121149aa610f",
+        "machine": "6a9bdad838b787fadb79fad5",
+        "maintenanceType": "Preventive",
+        "maintenanceCategory": "General",
+        "componentsChecked": [],
+        "inspectionDetails": {
+          "currentCondition": "Good",
+          "machineStatus": "Running",
+          "running": "Running",
+          "whyStopped": "",
+          "downtime": 0,
+          "problemDescription": "",
+          "maintenanceDetails": "",
+          "remarks": "jjuhgy"
+        },
+        "engineerName": "mahendran",
+        "sparePartsUsed": false,
+        "sparePartsDetails": [],
+        "finalStatus": "Completed",
+        "description": "jjuhgy",
+        "machineRunningHours": 0,
+        "nextMaintenanceDate": "2027-04-08T00:00:00.000Z",
+        "reminderSent": false,
+        "remarks": "jjuhgy",
+        "cost": 0,
+        "photos": [
+          "https://res.cloudinary.com/vatot25g/image/upload/v1789208829/mms/file_s9gh2n.png",
+          "https://res.cloudinary.com/vatot25g/image/upload/v1789208855/mms/file_pxkn9v.png"
+        ],
+        "videos": [],
+        "performedBy": "6a8ea0d81a39482dd5d8fb00",
+        "approvalStatus": "Submitted",
+        "maintenanceDate": "2026-09-12T10:28:30.419Z",
+        "createdAt": "2026-09-12T10:28:30.420Z",
+        "updatedAt": "2026-09-12T10:28:30.420Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa7879d2d2940507bd8a5f8",
+        "machine": "6a9bebb515953aab5f1d4e12",
+        "maintenanceType": "Preventive",
+        "maintenanceCategory": "General",
+        "componentsChecked": [],
+        "inspectionDetails": {
+          "currentCondition": "Good",
+          "machineStatus": "Running",
+          "running": "Running",
+          "whyStopped": "",
+          "downtime": 0,
+          "problemDescription": "",
+          "maintenanceDetails": "",
+          "remarks": "jbbjk"
+        },
+        "engineerName": "mahendran",
+        "sparePartsUsed": false,
+        "sparePartsDetails": [],
+        "finalStatus": "Completed",
+        "description": "jbbjk",
+        "machineRunningHours": 0,
+        "reminderSent": false,
+        "remarks": "jbbjk",
+        "cost": 0,
+        "photos": [
+          "https://res.cloudinary.com/vatot25g/image/upload/v1789364054/mms/file_r14cto.png"
+        ],
+        "videos": [],
+        "performedBy": "6a8ea0d81a39482dd5d8fb00",
+        "approvalStatus": "Submitted",
+        "maintenanceDate": "2026-09-14T05:35:25.117Z",
+        "createdAt": "2026-09-14T05:35:25.123Z",
+        "updatedAt": "2026-09-14T05:35:25.123Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa7953564c4e48413c079a7",
+        "machine": "6a9be9c915953aab5f1d4d19",
+        "maintenanceType": "Preventive",
+        "maintenanceCategory": "General",
+        "componentsChecked": [],
+        "inspectionDetails": {
+          "currentCondition": "Good",
+          "machineStatus": "Running",
+          "running": "Running",
+          "whyStopped": "",
+          "downtime": 0,
+          "problemDescription": "",
+          "maintenanceDetails": "",
+          "remarks": "jjj"
+        },
+        "engineerName": "mahendran",
+        "sparePartsUsed": false,
+        "sparePartsDetails": [],
+        "finalStatus": "Completed",
+        "description": "jjj",
+        "machineRunningHours": 0,
+        "reminderSent": false,
+        "remarks": "jjj",
+        "cost": 0,
+        "photos": [
+          "https://res.cloudinary.com/vatot25g/image/upload/v1789367532/mms/file_buuuqt.png"
+        ],
+        "videos": [],
+        "performedBy": "6a8ea0d81a39482dd5d8fb00",
+        "approvalStatus": "Submitted",
+        "maintenanceDate": "2026-09-14T06:33:25.473Z",
+        "createdAt": "2026-09-14T06:33:25.474Z",
+        "updatedAt": "2026-09-14T06:33:25.474Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa7a54164c4e48413c07bc9",
+        "machine": "6a9beb6215953aab5f1d4df1",
+        "maintenanceType": "Preventive",
+        "maintenanceCategory": "General",
+        "componentsChecked": [],
+        "inspectionDetails": {
+          "currentCondition": "Good",
+          "machineStatus": "Running",
+          "running": "Running",
+          "whyStopped": "",
+          "downtime": 0,
+          "problemDescription": "",
+          "maintenanceDetails": "",
+          "remarks": "ffr"
+        },
+        "engineerName": "mahendran",
+        "sparePartsUsed": false,
+        "sparePartsDetails": [],
+        "finalStatus": "Completed",
+        "description": "ffr",
+        "machineRunningHours": 0,
+        "reminderSent": false,
+        "remarks": "ffr",
+        "cost": 0,
+        "photos": [
+          "https://res.cloudinary.com/vatot25g/image/upload/v1789371649/mms/file_zk9fk0.png"
+        ],
+        "videos": [],
+        "performedBy": "6a8ea0d81a39482dd5d8fb00",
+        "approvalStatus": "Submitted",
+        "maintenanceDate": "2026-09-14T07:41:53.932Z",
+        "createdAt": "2026-09-14T07:41:53.933Z",
+        "updatedAt": "2026-09-14T07:41:53.933Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa8f4c11691f507ea378f3a",
+        "machine": "6a9bebb515953aab5f1d4e12",
+        "maintenanceType": "Preventive",
+        "maintenanceCategory": "General",
+        "componentsChecked": [],
+        "inspectionDetails": {
+          "currentCondition": "Good",
+          "machineStatus": "Running",
+          "running": "Running",
+          "whyStopped": "",
+          "downtime": 0,
+          "problemDescription": "",
+          "maintenanceDetails": "",
+          "remarks": "jju"
+        },
+        "engineerName": "mahendran",
+        "sparePartsUsed": false,
+        "sparePartsDetails": [],
+        "finalStatus": "Completed",
+        "description": "jju",
+        "machineRunningHours": 0,
+        "reminderSent": false,
+        "remarks": "jju",
+        "cost": 0,
+        "photos": [
+          "https://res.cloudinary.com/vatot25g/image/upload/v1789457537/mms/file_bicwnq.png"
+        ],
+        "videos": [],
+        "performedBy": "6a8ea0d81a39482dd5d8fb00",
+        "approvalStatus": "Submitted",
+        "maintenanceDate": "2026-09-15T07:33:21.583Z",
+        "createdAt": "2026-09-15T07:33:21.584Z",
+        "updatedAt": "2026-09-15T07:33:21.584Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa90325acc22a3f842fe434",
+        "machine": "6a9bebb515953aab5f1d4e12",
+        "maintenanceType": "Preventive",
+        "maintenanceCategory": "General",
+        "componentsChecked": [],
+        "inspectionDetails": {
+          "currentCondition": "Good",
+          "machineStatus": "Under Maintenance",
+          "running": "Under Maintenance",
+          "whyStopped": "",
+          "downtime": 0,
+          "problemDescription": "",
+          "maintenanceDetails": "swef",
+          "remarks": "ewfe"
+        },
+        "engineerName": "mahendran",
+        "sparePartsUsed": false,
+        "sparePartsDetails": [],
+        "finalStatus": "Completed",
+        "description": "ewfe",
+        "machineRunningHours": 0,
+        "reminderSent": false,
+        "remarks": "ewfe",
+        "cost": 0,
+        "photos": [
+          "https://res.cloudinary.com/vatot25g/image/upload/v1789461271/mms/file_jafu1k.png"
+        ],
+        "videos": [],
+        "performedBy": "6a8ea0d81a39482dd5d8fb00",
+        "approvalStatus": "Submitted",
+        "maintenanceDate": "2026-09-15T08:34:45.639Z",
+        "createdAt": "2026-09-15T08:34:45.639Z",
+        "updatedAt": "2026-09-15T08:34:45.639Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa937e1fe8cb2fd78768068",
+        "machine": "6a9bebb515953aab5f1d4e12",
+        "maintenanceType": "Preventive",
+        "maintenanceCategory": "General",
+        "componentsChecked": [],
+        "inspectionDetails": {
+          "currentCondition": "Good",
+          "machineStatus": "Running",
+          "running": "Running",
+          "whyStopped": "",
+          "downtime": 0,
+          "problemDescription": "",
+          "maintenanceDetails": "",
+          "remarks": "ghj"
+        },
+        "engineerName": "mahendran",
+        "sparePartsUsed": false,
+        "sparePartsDetails": [],
+        "finalStatus": "Completed",
+        "description": "ghj",
+        "machineRunningHours": 0,
+        "nextMaintenanceDate": "2026-11-25T00:00:00.000Z",
+        "reminderSent": false,
+        "remarks": "ghj",
+        "cost": 0,
+        "photos": [
+          "https://res.cloudinary.com/vatot25g/image/upload/v1789474713/mms/file_gpq3a8.png"
+        ],
+        "videos": [],
+        "performedBy": "6a8ea0d81a39482dd5d8fb00",
+        "approvalStatus": "Submitted",
+        "maintenanceDate": "2026-09-15T12:19:45.588Z",
+        "createdAt": "2026-09-15T12:19:45.590Z",
+        "updatedAt": "2026-09-15T12:19:45.590Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa9380cfe8cb2fd787680b3",
+        "machine": "6a9beb1815953aab5f1d4dd0",
+        "maintenanceType": "Preventive",
+        "maintenanceCategory": "General",
+        "componentsChecked": [],
+        "inspectionDetails": {
+          "currentCondition": "Good",
+          "machineStatus": "Running",
+          "running": "Running",
+          "whyStopped": "",
+          "downtime": 0,
+          "problemDescription": "",
+          "maintenanceDetails": "",
+          "remarks": "dfghj"
+        },
+        "engineerName": "mahendran",
+        "sparePartsUsed": false,
+        "sparePartsDetails": [],
+        "finalStatus": "Completed",
+        "description": "dfghj",
+        "machineRunningHours": 0,
+        "reminderSent": false,
+        "remarks": "dfghj",
+        "cost": 0,
+        "photos": [
+          "https://res.cloudinary.com/vatot25g/image/upload/v1789474768/mms/file_x0cssm.png"
+        ],
+        "videos": [],
+        "performedBy": "6a8ea0d81a39482dd5d8fb00",
+        "approvalStatus": "Submitted",
+        "maintenanceDate": "2026-09-15T12:20:28.814Z",
+        "createdAt": "2026-09-15T12:20:28.815Z",
+        "updatedAt": "2026-09-15T12:20:28.815Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa93846fe8cb2fd78768100",
+        "machine": "6a9beb6215953aab5f1d4df1",
+        "maintenanceType": "Preventive",
+        "maintenanceCategory": "General",
+        "componentsChecked": [],
+        "inspectionDetails": {
+          "currentCondition": "Good",
+          "machineStatus": "Running",
+          "running": "Running",
+          "whyStopped": "",
+          "downtime": 0,
+          "problemDescription": "",
+          "maintenanceDetails": "",
+          "remarks": "dfgh"
+        },
+        "engineerName": "mahendran",
+        "sparePartsUsed": false,
+        "sparePartsDetails": [],
+        "finalStatus": "Completed",
+        "description": "dfgh",
+        "machineRunningHours": 0,
+        "reminderSent": false,
+        "remarks": "dfgh",
+        "cost": 0,
+        "photos": [
+          "https://res.cloudinary.com/vatot25g/image/upload/v1789474827/mms/file_nykitr.png"
+        ],
+        "videos": [],
+        "performedBy": "6a8ea0d81a39482dd5d8fb00",
+        "approvalStatus": "Submitted",
+        "maintenanceDate": "2026-09-15T12:21:26.596Z",
+        "createdAt": "2026-09-15T12:21:26.596Z",
+        "updatedAt": "2026-09-15T12:21:26.596Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa93a0ffe8cb2fd787686d0",
+        "machine": "6a9bea2f15953aab5f1d4d3a",
+        "maintenanceType": "Preventive",
+        "maintenanceCategory": "General",
+        "componentsChecked": [],
+        "inspectionDetails": {
+          "currentCondition": "Good",
+          "machineStatus": "Running",
+          "running": "Running",
+          "whyStopped": "",
+          "downtime": 0,
+          "problemDescription": "",
+          "maintenanceDetails": "",
+          "remarks": "fghj"
+        },
+        "engineerName": "mahendran",
+        "sparePartsUsed": false,
+        "sparePartsDetails": [],
+        "finalStatus": "Completed",
+        "description": "fghj",
+        "machineRunningHours": 0,
+        "reminderSent": false,
+        "remarks": "fghj",
+        "cost": 0,
+        "photos": [
+          "https://res.cloudinary.com/vatot25g/image/upload/v1789475279/mms/file_uuasiz.png"
+        ],
+        "videos": [],
+        "performedBy": "6a8ea0d81a39482dd5d8fb00",
+        "approvalStatus": "Submitted",
+        "maintenanceDate": "2026-09-15T12:29:03.998Z",
+        "createdAt": "2026-09-15T12:29:03.999Z",
+        "updatedAt": "2026-09-15T12:29:03.999Z",
+        "__v": 0
+      }
+    ],
+    "Notification": [
+      {
+        "_id": "6aa7937364c4e48413c078b0",
+        "type": "Upcoming Maintenance",
+        "title": "Maintenance Due - JA-93-280-2C",
+        "message": "Machine: JA-93-280-2C\nScheduled maintenance is due today.\nPlease perform the required maintenance and log it in the system.",
+        "machine": "6a9beb6215953aab5f1d4df1",
+        "recipients": [
+          {
+            "user": "6a8ea0d81a39482dd5d8fb03",
+            "channel": "push",
+            "status": "pending",
+            "_id": "6aa7937364c4e48413c078b1"
+          },
+          {
+            "user": "6a8e94be1a39482dd5d8f91c",
+            "channel": "push",
+            "status": "pending",
+            "_id": "6aa7937364c4e48413c078b2"
+          }
+        ],
+        "isRead": true,
+        "sourceCollection": "Maintenance",
+        "sourceId": "6aa50dbd94bc121149aa5d38",
+        "createdAt": "2026-09-14T06:25:55.267Z",
+        "updatedAt": "2026-09-14T06:35:11.126Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aad02d7bf780c71b70b2efb",
+        "type": "Oil Change Reminder",
+        "title": "Oil Change Due - JA-93-280-2C",
+        "message": "Machine: JA-93-280-2C (7)\nOil Change Due Today\nPlease replace the oil immediately.",
+        "machine": "6a9be9c915953aab5f1d4d19",
+        "recipients": [
+          {
+            "user": "6a8e94be1a39482dd5d8f91c",
+            "channel": "push",
+            "status": "pending",
+            "_id": "6aad02d7bf780c71b70b2efc"
+          }
+        ],
+        "isRead": false,
+        "sourceCollection": "OilChange",
+        "sourceId": "6aa794f864c4e48413c07961",
+        "createdAt": "2026-09-18T09:22:31.461Z",
+        "updatedAt": "2026-09-18T09:22:31.461Z",
+        "__v": 0
+      }
+    ],
+    "Employee": [
+      {
+        "_id": "6a8ea0d81a39482dd5d8fb00",
+        "employeeId": "SS-20262515",
+        "name": "mahendran",
+        "phoneNumber": "9043674143",
+        "email": "mahendranjaya7498@gmail.com",
+        "department": "textiles",
+        "designation": "fitter",
+        "profilePhoto": "https://res.cloudinary.com/vatot25g/image/upload/v1788519234/mms/file_p2mlff.png",
+        "assignedMachines": [
+          "6a9bea2f15953aab5f1d4d3a",
+          "6a9beaab15953aab5f1d4daf",
+          "6a9beb1815953aab5f1d4dd0",
+          "6a9beb6215953aab5f1d4df1",
+          "6a9bebb515953aab5f1d4e12",
+          "6aa270b50e9bb1c0c0ee41bc",
+          "6aa271400e9bb1c0c0ee4233"
+        ],
+        "isActive": true,
+        "manager": "6a8ea0081a39482dd5d8face",
+        "createdAt": "2026-08-26T08:16:24.316Z",
+        "updatedAt": "2026-09-15T12:22:40.304Z",
+        "__v": 6,
+        "user": "6a8ea0d81a39482dd5d8fb03"
+      }
+    ],
+    "Machine": [
+      {
+        "_id": "6a9bdad838b787fadb79fad5",
+        "assetType": "Machine",
+        "machineId": "202502-01",
+        "machineName": "AIR JET MACHINE",
+        "machineNumber": "1",
+        "machineType": "JA-93-190-2C",
+        "company": "SUNSHINE FABRICS",
+        "modelNumber": "20250214-JA",
+        "serialNumber": "20250214-001",
+        "purchaseDate": "2025-01-02T00:00:00.000Z",
+        "installationDate": "2025-02-14T00:00:00.000Z",
+        "warrantyExpiry": "2026-02-14T00:00:00.000Z",
+        "machineImage": "",
+        "layout": {
+          "width": 3,
+          "length": 4,
+          "machineCount": 12,
+          "isLocked": true,
+          "lockedAt": "2026-09-05T09:03:20.376Z",
+          "lockedBy": "6a86c63d1e6d62539dff5561"
+        },
+        "status": "Running",
+        "assignedEmployees": [],
+        "documents": [],
+        "isDeleted": false,
+        "createdAt": "2026-09-05T09:03:20.378Z",
+        "updatedAt": "2026-09-15T09:34:15.519Z",
+        "__v": 0,
+        "machineCategory": "loom",
+        "runningHours": 0,
+        "totalDowntime": 0
+      },
+      {
+        "_id": "6a9be76915953aab5f1d4c58",
+        "assetType": "Machine",
+        "machineId": "202502-02",
+        "machineName": "JA-93-280-2C",
+        "machineNumber": "2",
+        "machineType": "AIR JET MACHINE",
+        "company": "SUNSHINE FABRICS",
+        "modelNumber": "20250214-01",
+        "serialNumber": "JA-20250214-01",
+        "purchaseDate": "2025-02-20T00:00:00.000Z",
+        "installationDate": "2025-02-02T00:00:00.000Z",
+        "warrantyExpiry": "2026-02-02T00:00:00.000Z",
+        "machineImage": "",
+        "layout": {
+          "width": 3,
+          "length": 4,
+          "machineCount": 12,
+          "isLocked": true,
+          "lockedAt": "2026-09-05T09:56:57.190Z",
+          "lockedBy": "6a86c63d1e6d62539dff5561"
+        },
+        "status": "Running",
+        "assignedEmployees": [],
+        "documents": [],
+        "isDeleted": false,
+        "createdAt": "2026-09-05T09:56:57.195Z",
+        "updatedAt": "2026-09-15T09:34:15.519Z",
+        "__v": 0,
+        "machineCategory": "loom",
+        "runningHours": 0,
+        "totalDowntime": 0
+      },
+      {
+        "_id": "6a9be7bd15953aab5f1d4c79",
+        "assetType": "Machine",
+        "machineId": "202502-03",
+        "machineName": "JA-93-280-2C",
+        "machineNumber": "3",
+        "machineType": "AIR JET MACHINE",
+        "company": "SUNSHINE FABRICS",
+        "modelNumber": "20250214-03",
+        "serialNumber": "JA-20250214-03",
+        "purchaseDate": "2025-02-26T00:00:00.000Z",
+        "installationDate": "2025-02-26T00:00:00.000Z",
+        "warrantyExpiry": "2026-02-26T00:00:00.000Z",
+        "machineImage": "",
+        "layout": {
+          "width": 3,
+          "length": 4,
+          "machineCount": 12,
+          "isLocked": true,
+          "lockedAt": "2026-09-05T09:58:21.919Z",
+          "lockedBy": "6a86c63d1e6d62539dff5561"
+        },
+        "status": "Running",
+        "assignedEmployees": [],
+        "documents": [],
+        "isDeleted": false,
+        "createdAt": "2026-09-05T09:58:21.922Z",
+        "updatedAt": "2026-09-15T09:34:15.519Z",
+        "__v": 0,
+        "airFilterStatus": "",
+        "assignedEngineer": "",
+        "brand": "",
+        "cleaningStatus": "",
+        "coolantLevel": "",
+        "dewPoint": null,
+        "differentialPressure": null,
+        "drainStatus": "",
+        "filterCondition": "",
+        "inletPressure": null,
+        "machineCategory": "loom",
+        "notes": "",
+        "oRingOrSealStatus": "",
+        "oilCarryoverStatus": "",
+        "oilFilterStatus": "",
+        "oilLevel": "",
+        "outletPressure": null,
+        "pressure": null,
+        "rpm": null,
+        "runningHours": 0,
+        "section": "",
+        "separatorCondition": "",
+        "separatorElementStatus": "",
+        "shed": "",
+        "temperature": null,
+        "totalDowntime": 0,
+        "width": null
+      },
+      {
+        "_id": "6a9be82e15953aab5f1d4cb6",
+        "assetType": "Machine",
+        "machineId": "202502-04",
+        "machineName": "JA-93-280-2C",
+        "machineNumber": "4",
+        "machineType": "AIR JET MACHINE",
+        "company": "SUNSHINE FABRICS",
+        "modelNumber": "20250214-04",
+        "serialNumber": "JA-20250214-04",
+        "purchaseDate": "2025-02-14T00:00:00.000Z",
+        "installationDate": "2025-02-16T00:00:00.000Z",
+        "warrantyExpiry": "2026-02-16T00:00:00.000Z",
+        "machineImage": "",
+        "layout": {
+          "width": 3,
+          "length": 4,
+          "machineCount": 12,
+          "isLocked": true,
+          "lockedAt": "2026-09-05T10:00:14.460Z",
+          "lockedBy": "6a86c63d1e6d62539dff5561"
+        },
+        "status": "Running",
+        "assignedEmployees": [],
+        "documents": [],
+        "isDeleted": false,
+        "createdAt": "2026-09-05T10:00:14.462Z",
+        "updatedAt": "2026-09-15T09:34:15.519Z",
+        "__v": 0,
+        "machineCategory": "loom",
+        "runningHours": 0,
+        "totalDowntime": 0
+      },
+      {
+        "_id": "6a9be8dd15953aab5f1d4cd7",
+        "assetType": "Machine",
+        "machineId": "202502-05",
+        "machineName": "JA-93-280-2C",
+        "machineNumber": "5",
+        "machineType": "AIR JET MACHINE",
+        "company": "SUNSHINE FABRICS",
+        "modelNumber": "20250214-05",
+        "serialNumber": "JA-20250214-05",
+        "purchaseDate": "2025-02-15T00:00:00.000Z",
+        "installationDate": "2025-02-18T00:00:00.000Z",
+        "warrantyExpiry": "2026-02-18T00:00:00.000Z",
+        "machineImage": "",
+        "layout": {
+          "width": 3,
+          "length": 4,
+          "machineCount": 12,
+          "isLocked": true,
+          "lockedAt": "2026-09-05T10:03:09.672Z",
+          "lockedBy": "6a86c63d1e6d62539dff5561"
+        },
+        "status": "Running",
+        "assignedEmployees": [],
+        "documents": [],
+        "isDeleted": false,
+        "createdAt": "2026-09-05T10:03:09.674Z",
+        "updatedAt": "2026-09-15T09:34:15.519Z",
+        "__v": 0,
+        "machineCategory": "loom",
+        "runningHours": 0,
+        "totalDowntime": 0
+      },
+      {
+        "_id": "6a9be95815953aab5f1d4cf8",
+        "assetType": "Machine",
+        "machineId": "202502-06",
+        "machineName": "JA-93-280-2C",
+        "machineNumber": "6",
+        "machineType": "AIR JET MACHINE",
+        "company": "SUNSHINE FABRICS",
+        "modelNumber": "20250214-06",
+        "serialNumber": "JA-20250214-06",
+        "purchaseDate": "2025-02-26T00:00:00.000Z",
+        "installationDate": "2025-02-28T00:00:00.000Z",
+        "warrantyExpiry": "2026-02-28T00:00:00.000Z",
+        "machineImage": "",
+        "layout": {
+          "width": 3,
+          "length": 4,
+          "machineCount": 12,
+          "isLocked": true,
+          "lockedAt": "2026-09-05T10:05:12.748Z",
+          "lockedBy": "6a86c63d1e6d62539dff5561"
+        },
+        "status": "Running",
+        "assignedEmployees": [],
+        "documents": [],
+        "isDeleted": false,
+        "createdAt": "2026-09-05T10:05:12.750Z",
+        "updatedAt": "2026-09-15T09:34:15.519Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a9be9c915953aab5f1d4d19",
+        "assetType": "Machine",
+        "machineId": "202502-07",
+        "machineName": "JA-93-280-2C",
+        "machineNumber": "7",
+        "machineType": "AIR JET MACHINE",
+        "company": "SUNSHINE FABRICS",
+        "modelNumber": "20250214-07",
+        "serialNumber": "JA-20250214-07",
+        "purchaseDate": "2025-02-18T00:00:00.000Z",
+        "installationDate": "2025-02-19T00:00:00.000Z",
+        "warrantyExpiry": "2026-02-19T00:00:00.000Z",
+        "machineImage": "",
+        "layout": {
+          "width": 3,
+          "length": 4,
+          "machineCount": 12,
+          "isLocked": true,
+          "lockedAt": "2026-09-05T10:07:05.203Z",
+          "lockedBy": "6a86c63d1e6d62539dff5561"
+        },
+        "status": "Running",
+        "assignedEmployees": [],
+        "documents": [],
+        "isDeleted": false,
+        "createdAt": "2026-09-05T10:07:05.205Z",
+        "updatedAt": "2026-09-15T09:34:15.519Z",
+        "__v": 0,
+        "machineCategory": "loom",
+        "runningHours": 0,
+        "totalDowntime": 0
+      },
+      {
+        "_id": "6a9bea2f15953aab5f1d4d3a",
+        "assetType": "Machine",
+        "machineId": "202502-08",
+        "machineName": "JA-92-280-2C",
+        "machineNumber": "8",
+        "machineType": "AIR JET MACHINE",
+        "company": "SUNSHINE FABRICS",
+        "modelNumber": "20250214-08",
+        "serialNumber": "JA-20250214-08",
+        "purchaseDate": "2025-02-15T00:00:00.000Z",
+        "installationDate": "2025-02-16T00:00:00.000Z",
+        "warrantyExpiry": "2026-02-16T00:00:00.000Z",
+        "machineImage": "",
+        "layout": {
+          "width": 3,
+          "length": 4,
+          "machineCount": 12,
+          "isLocked": true,
+          "lockedAt": "2026-09-05T10:08:47.310Z",
+          "lockedBy": "6a86c63d1e6d62539dff5561"
+        },
+        "status": "Running",
+        "assignedEmployees": [
+          "6a8ea0d81a39482dd5d8fb00"
+        ],
+        "documents": [],
+        "isDeleted": false,
+        "createdAt": "2026-09-05T10:08:47.313Z",
+        "updatedAt": "2026-09-15T12:29:04.050Z",
+        "__v": 0,
+        "machineCategory": "loom",
+        "runningHours": 0,
+        "totalDowntime": 0,
+        "statusLocked": false
+      },
+      {
+        "_id": "6a9beaab15953aab5f1d4daf",
+        "assetType": "Machine",
+        "machineId": "202502-09",
+        "machineName": "JA-93-280-2C",
+        "machineNumber": "9",
+        "machineType": "AIR JET MACHINE",
+        "company": "SUNSHINE FABRICS",
+        "modelNumber": "20250214-09",
+        "serialNumber": "JA-20250214-09",
+        "purchaseDate": "2025-02-16T00:00:00.000Z",
+        "installationDate": "2025-02-18T00:00:00.000Z",
+        "warrantyExpiry": "2026-02-18T00:00:00.000Z",
+        "machineImage": "",
+        "layout": {
+          "width": 3,
+          "length": 4,
+          "machineCount": 12,
+          "isLocked": true,
+          "lockedAt": "2026-09-05T10:10:51.745Z",
+          "lockedBy": "6a86c63d1e6d62539dff5561"
+        },
+        "status": "Running",
+        "assignedEmployees": [
+          "6a8ea0d81a39482dd5d8fb00"
+        ],
+        "documents": [],
+        "isDeleted": false,
+        "createdAt": "2026-09-05T10:10:51.747Z",
+        "updatedAt": "2026-09-15T12:22:40.347Z",
+        "__v": 0,
+        "machineCategory": "loom",
+        "runningHours": 0,
+        "totalDowntime": 0,
+        "statusLocked": true
+      },
+      {
+        "_id": "6a9beb1815953aab5f1d4dd0",
+        "assetType": "Machine",
+        "machineId": "202502-10",
+        "machineName": "JA-93-280-2C",
+        "machineNumber": "10",
+        "machineType": "AIR JET MACHINE",
+        "company": "SUNSHINE FABRICS",
+        "modelNumber": "20250214-10",
+        "serialNumber": "JA-20250214-10",
+        "purchaseDate": "2025-02-19T00:00:00.000Z",
+        "installationDate": "2025-02-20T00:00:00.000Z",
+        "warrantyExpiry": "2026-02-20T00:00:00.000Z",
+        "machineImage": "",
+        "layout": {
+          "width": 3,
+          "length": 4,
+          "machineCount": 12,
+          "isLocked": true,
+          "lockedAt": "2026-09-05T10:12:40.744Z",
+          "lockedBy": "6a86c63d1e6d62539dff5561"
+        },
+        "status": "Running",
+        "assignedEmployees": [
+          "6a8ea0d81a39482dd5d8fb00"
+        ],
+        "documents": [],
+        "isDeleted": false,
+        "createdAt": "2026-09-05T10:12:40.746Z",
+        "updatedAt": "2026-09-15T12:22:40.347Z",
+        "__v": 0,
+        "machineCategory": "loom",
+        "runningHours": 0,
+        "totalDowntime": 0,
+        "statusLocked": false
+      },
+      {
+        "_id": "6a9beb6215953aab5f1d4df1",
+        "assetType": "Machine",
+        "machineId": "202502-11",
+        "machineName": "JA-93-280-2C",
+        "machineNumber": "11",
+        "machineType": "AIR JET MACHINE",
+        "company": "SUNSHINE FABRICS",
+        "modelNumber": "20250214-11",
+        "serialNumber": "JA-20250214-11",
+        "purchaseDate": "2025-02-15T00:00:00.000Z",
+        "installationDate": "2025-02-16T00:00:00.000Z",
+        "warrantyExpiry": "2026-02-16T00:00:00.000Z",
+        "machineImage": "",
+        "layout": {
+          "width": 3,
+          "length": 4,
+          "machineCount": 12,
+          "isLocked": true,
+          "lockedAt": "2026-09-05T10:13:54.330Z",
+          "lockedBy": "6a86c63d1e6d62539dff5561"
+        },
+        "status": "Running",
+        "assignedEmployees": [
+          "6a8ea0d81a39482dd5d8fb00"
+        ],
+        "documents": [],
+        "isDeleted": false,
+        "createdAt": "2026-09-05T10:13:54.332Z",
+        "updatedAt": "2026-09-15T12:22:40.347Z",
+        "__v": 0,
+        "machineCategory": "loom",
+        "runningHours": 0,
+        "totalDowntime": 0,
+        "statusLocked": false
+      },
+      {
+        "_id": "6a9bebb515953aab5f1d4e12",
+        "assetType": "Machine",
+        "machineId": "202502-12",
+        "machineName": "JA-93-280-2C",
+        "machineNumber": "12",
+        "machineType": "AIR JET MACHINE",
+        "company": "SUNSHINE FABRICS",
+        "modelNumber": "20250214-12",
+        "serialNumber": "JA-20250214-12",
+        "purchaseDate": "2025-02-17T00:00:00.000Z",
+        "installationDate": "2025-02-19T00:00:00.000Z",
+        "warrantyExpiry": "2026-02-19T00:00:00.000Z",
+        "machineImage": "",
+        "layout": {
+          "width": 3,
+          "length": 4,
+          "machineCount": 12,
+          "isLocked": true,
+          "lockedAt": "2026-09-05T10:15:17.513Z",
+          "lockedBy": "6a86c63d1e6d62539dff5561"
+        },
+        "status": "Breakdown",
+        "assignedEmployees": [
+          "6a8ea0d81a39482dd5d8fb00"
+        ],
+        "documents": [],
+        "isDeleted": false,
+        "createdAt": "2026-09-05T10:15:17.516Z",
+        "updatedAt": "2026-09-16T08:37:33.056Z",
+        "__v": 0,
+        "machineCategory": "loom",
+        "runningHours": 0,
+        "totalDowntime": 0,
+        "statusLocked": true
+      },
+      {
+        "_id": "6aa270b50e9bb1c0c0ee41bc",
+        "assetType": "Machine",
+        "machineId": "COMP-03",
+        "machineName": "fvv",
+        "machineNumber": "COMP-03",
+        "machineCategory": "compressor",
+        "machineType": "",
+        "company": "SUNSHINE FABRICS",
+        "modelNumber": "HDHD-69584",
+        "serialNumber": "JUU-985467",
+        "purchaseDate": "+022022-05-11T18:30:00.000Z",
+        "installationDate": "2022-05-12T00:00:00.000Z",
+        "warrantyExpiry": "2023-05-12T00:00:00.000Z",
+        "machineImage": "",
+        "section": "CZSAC",
+        "shed": "EESVS",
+        "brand": "HDHDH",
+        "rpm": null,
+        "width": null,
+        "runningHours": 0,
+        "totalDowntime": 0,
+        "assignedEngineer": "JJJU",
+        "notes": "HGVG",
+        "pressure": 25,
+        "temperature": 45,
+        "oilLevel": "HIGH",
+        "oilFilterStatus": "OK",
+        "airFilterStatus": "OK",
+        "separatorCondition": "GOOD",
+        "differentialPressure": 48,
+        "oilCarryoverStatus": "56",
+        "separatorElementStatus": "OK",
+        "oRingOrSealStatus": "OK",
+        "coolantLevel": "OKK",
+        "inletPressure": null,
+        "outletPressure": null,
+        "dewPoint": null,
+        "drainStatus": "",
+        "filterCondition": "",
+        "cleaningStatus": "",
+        "layout": {
+          "width": 3,
+          "length": 4,
+          "machineCount": 12,
+          "isLocked": true,
+          "lockedAt": "2026-09-10T08:56:21.693Z",
+          "lockedBy": "6a86c63d1e6d62539dff5561"
+        },
+        "status": "Running",
+        "assignedEmployees": [
+          "6a8ea0d81a39482dd5d8fb00"
+        ],
+        "documents": [],
+        "isDeleted": false,
+        "createdAt": "2026-09-10T08:56:21.709Z",
+        "updatedAt": "2026-09-15T12:22:40.347Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa271400e9bb1c0c0ee4233",
+        "assetType": "Machine",
+        "machineId": "DRY-01",
+        "machineName": "KI-985",
+        "machineNumber": "DRY-01",
+        "machineCategory": "air_dryer",
+        "machineType": "",
+        "company": "SUNSHINE FABRICS",
+        "modelNumber": "SFDSF26559",
+        "serialNumber": "FSFAE44",
+        "purchaseDate": "2022-04-05T00:00:00.000Z",
+        "installationDate": "2022-04-05T00:00:00.000Z",
+        "warrantyExpiry": "2022-04-05T00:00:00.000Z",
+        "machineImage": "",
+        "section": "WQFDQFC5",
+        "shed": "AEFAF6",
+        "brand": "SDASD",
+        "rpm": null,
+        "width": null,
+        "runningHours": 0,
+        "totalDowntime": 0,
+        "assignedEngineer": "SDFGHJ",
+        "notes": "KNKJSENFJ",
+        "pressure": null,
+        "temperature": null,
+        "oilLevel": "",
+        "oilFilterStatus": "",
+        "airFilterStatus": "",
+        "separatorCondition": "",
+        "differentialPressure": null,
+        "oilCarryoverStatus": "",
+        "separatorElementStatus": "",
+        "oRingOrSealStatus": "",
+        "coolantLevel": "",
+        "inletPressure": 54,
+        "outletPressure": 66,
+        "dewPoint": 66,
+        "drainStatus": "66",
+        "filterCondition": "FAEFEFEF",
+        "cleaningStatus": "FSF",
+        "layout": {
+          "width": 3,
+          "length": 4,
+          "machineCount": 12,
+          "isLocked": true,
+          "lockedAt": "2026-09-10T08:58:40.594Z",
+          "lockedBy": "6a86c63d1e6d62539dff5561"
+        },
+        "status": "Running",
+        "assignedEmployees": [
+          "6a8ea0d81a39482dd5d8fb00"
+        ],
+        "documents": [],
+        "isDeleted": false,
+        "createdAt": "2026-09-10T08:58:40.598Z",
+        "updatedAt": "2026-09-15T12:37:29.068Z",
+        "__v": 0,
+        "statusLocked": false
+      }
+    ],
+    "ActivityLog": [
+      {
+        "_id": "6a79c1dc295f49d92911c7b2",
+        "user": "6a79ba4c9e5c9d40191b47b2",
+        "action": "CREATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a79c1dc295f49d92911c7b0",
+        "details": {
+          "machineName": "sdvsdvsdvsdv"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-08-10T12:19:40.511Z",
+        "updatedAt": "2026-08-10T12:19:40.511Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a79c200295f49d92911c7f8",
+        "user": "6a79ba4c9e5c9d40191b47b2",
+        "action": "CREATE_OIL_CHANGE",
+        "entityType": "OilChange",
+        "entityId": "6a79c200295f49d92911c7f6",
+        "details": {
+          "machine": "6a79c1dc295f49d92911c7b0"
+        },
+        "createdAt": "2026-08-10T12:20:16.310Z",
+        "updatedAt": "2026-08-10T12:20:16.310Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a79c215295f49d92911c803",
+        "user": "6a79ba4c9e5c9d40191b47b2",
+        "action": "CREATE_OIL_CHANGE",
+        "entityType": "OilChange",
+        "entityId": "6a79c215295f49d92911c801",
+        "details": {
+          "machine": "6a79c1dc295f49d92911c7b0"
+        },
+        "createdAt": "2026-08-10T12:20:37.792Z",
+        "updatedAt": "2026-08-10T12:20:37.792Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a7c6391c6ac8dcea07aacdf",
+        "user": "6a79ba4c9e5c9d40191b47b2",
+        "action": "CREATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a7c6391c6ac8dcea07aacdd",
+        "details": {
+          "machineName": "redflag"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-08-12T12:14:09.512Z",
+        "updatedAt": "2026-08-12T12:14:09.512Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a7c63c8c6ac8dcea07aacf8",
+        "user": "6a79ba4c9e5c9d40191b47b2",
+        "action": "CREATE_OIL_CHANGE",
+        "entityType": "OilChange",
+        "entityId": "6a7c63c7c6ac8dcea07aacf6",
+        "details": {
+          "machine": "6a7c6391c6ac8dcea07aacdd"
+        },
+        "createdAt": "2026-08-12T12:15:04.023Z",
+        "updatedAt": "2026-08-12T12:15:04.023Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a7eea24fc5f83f5f0ce3118",
+        "user": "6a79ba4c9e5c9d40191b47b2",
+        "action": "CREATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a7eea24fc5f83f5f0ce3116",
+        "details": {
+          "machineName": "JA-93"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-08-14T10:12:52.923Z",
+        "updatedAt": "2026-08-14T10:12:52.923Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a86c860f910e91d3de67fff",
+        "user": "6a86c80cf910e91d3de67f81",
+        "action": "CREATE_OIL_CHANGE",
+        "entityType": "OilChange",
+        "entityId": "6a86c860f910e91d3de67ffd",
+        "details": {
+          "machine": "6a7eea24fc5f83f5f0ce3116"
+        },
+        "createdAt": "2026-08-20T09:26:56.936Z",
+        "updatedAt": "2026-08-20T09:26:56.936Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a86c861f910e91d3de6800b",
+        "user": "6a86c80cf910e91d3de67f81",
+        "action": "CREATE_OIL_CHANGE",
+        "entityType": "OilChange",
+        "entityId": "6a86c861f910e91d3de68009",
+        "details": {
+          "machine": "6a7eea24fc5f83f5f0ce3116"
+        },
+        "createdAt": "2026-08-20T09:26:57.393Z",
+        "updatedAt": "2026-08-20T09:26:57.393Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a86c863f910e91d3de68017",
+        "user": "6a86c80cf910e91d3de67f81",
+        "action": "CREATE_OIL_CHANGE",
+        "entityType": "OilChange",
+        "entityId": "6a86c863f910e91d3de68015",
+        "details": {
+          "machine": "6a7eea24fc5f83f5f0ce3116"
+        },
+        "createdAt": "2026-08-20T09:26:59.369Z",
+        "updatedAt": "2026-08-20T09:26:59.369Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a86fd0f2ab87e1179f628b9",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "CREATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a86fd0f2ab87e1179f628b7",
+        "details": {
+          "machineName": "JA93"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-08-20T13:11:43.911Z",
+        "updatedAt": "2026-08-20T13:11:43.911Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a8e856e0b27f942424cd3bf",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "CREATE_OIL_CHANGE",
+        "entityType": "OilChange",
+        "entityId": "6a8e856e0b27f942424cd3bd",
+        "details": {
+          "machine": "6a7eea24fc5f83f5f0ce3116"
+        },
+        "createdAt": "2026-08-26T06:19:26.755Z",
+        "updatedAt": "2026-08-26T06:19:26.755Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a8e85870b27f942424cd3cb",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "CREATE_OIL_CHANGE",
+        "entityType": "OilChange",
+        "entityId": "6a8e85870b27f942424cd3c9",
+        "details": {
+          "machine": "6a7eea24fc5f83f5f0ce3116"
+        },
+        "createdAt": "2026-08-26T06:19:51.749Z",
+        "updatedAt": "2026-08-26T06:19:51.749Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a8e95821a39482dd5d8f933",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "CREATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a8e95821a39482dd5d8f931",
+        "details": {
+          "machineName": "JA-93-280"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-08-26T07:28:02.958Z",
+        "updatedAt": "2026-08-26T07:28:02.958Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a8e960f1a39482dd5d8f958",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "CREATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a8e960f1a39482dd5d8f956",
+        "details": {
+          "machineName": "JA-93-280-2C"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-08-26T07:30:23.135Z",
+        "updatedAt": "2026-08-26T07:30:23.135Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a8e96b61a39482dd5d8f97d",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "CREATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a8e96b61a39482dd5d8f97b",
+        "details": {
+          "machineName": "JA-93-280-2C"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-08-26T07:33:10.688Z",
+        "updatedAt": "2026-08-26T07:33:10.688Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a8e97281a39482dd5d8f993",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "CREATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a8e97271a39482dd5d8f991",
+        "details": {
+          "machineName": "JA-93-280-2C"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-08-26T07:35:04.051Z",
+        "updatedAt": "2026-08-26T07:35:04.051Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a8e97d81a39482dd5d8f9b6",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "CREATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a8e97d81a39482dd5d8f9b4",
+        "details": {
+          "machineName": "JA-93-280-2C"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-08-26T07:38:00.709Z",
+        "updatedAt": "2026-08-26T07:38:00.709Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a8e9ad21a39482dd5d8f9cc",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "CREATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a8e9ad21a39482dd5d8f9ca",
+        "details": {
+          "machineName": "JA-93-280-2C"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-08-26T07:50:42.284Z",
+        "updatedAt": "2026-08-26T07:50:42.284Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a8e9d621a39482dd5d8fa15",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "CREATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a8e9d621a39482dd5d8fa13",
+        "details": {
+          "machineName": "JA-93-280-2C"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-08-26T08:01:38.350Z",
+        "updatedAt": "2026-08-26T08:01:38.350Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a8e9dcf1a39482dd5d8fa2b",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "CREATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a8e9dcf1a39482dd5d8fa29",
+        "details": {
+          "machineName": "JA-93-280-2C"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-08-26T08:03:27.742Z",
+        "updatedAt": "2026-08-26T08:03:27.742Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a8e9e521a39482dd5d8fa4b",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "CREATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a8e9e521a39482dd5d8fa49",
+        "details": {
+          "machineName": "JA-93-280-2C"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-08-26T08:05:38.558Z",
+        "updatedAt": "2026-08-26T08:05:38.558Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a8e9eb11a39482dd5d8fa63",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "CREATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a8e9eb11a39482dd5d8fa61",
+        "details": {
+          "machineName": "JA-93-280-2C"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-08-26T08:07:13.157Z",
+        "updatedAt": "2026-08-26T08:07:13.157Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a8e9f061a39482dd5d8fa79",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "CREATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a8e9f061a39482dd5d8fa77",
+        "details": {
+          "machineName": "JA-93-280-2C"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-08-26T08:08:38.924Z",
+        "updatedAt": "2026-08-26T08:08:38.924Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a8e9f881a39482dd5d8fa8f",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "CREATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a8e9f881a39482dd5d8fa8d",
+        "details": {
+          "machineName": "JA-93-280-2C"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-08-26T08:10:48.099Z",
+        "updatedAt": "2026-08-26T08:10:48.099Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a8ecc209d6877e1ea7ed29a",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a8e9f881a39482dd5d8fa8d",
+        "details": {
+          "status": "Under Maintenance"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-08-26T11:21:04.441Z",
+        "updatedAt": "2026-08-26T11:21:04.441Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a8ecc229d6877e1ea7ed2a0",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a8e9f881a39482dd5d8fa8d",
+        "details": {
+          "status": "Breakdown"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-08-26T11:21:06.711Z",
+        "updatedAt": "2026-08-26T11:21:06.711Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a8ecc259d6877e1ea7ed2a6",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a8e9f881a39482dd5d8fa8d",
+        "details": {
+          "status": "Idle"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-08-26T11:21:09.299Z",
+        "updatedAt": "2026-08-26T11:21:09.299Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a8ecc359d6877e1ea7ed2ac",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a8e9f881a39482dd5d8fa8d",
+        "details": {
+          "status": "Under Maintenance"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-08-26T11:21:25.198Z",
+        "updatedAt": "2026-08-26T11:21:25.198Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a8ecc379d6877e1ea7ed2b2",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a8e9f881a39482dd5d8fa8d",
+        "details": {
+          "status": "Breakdown"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-08-26T11:21:27.753Z",
+        "updatedAt": "2026-08-26T11:21:27.753Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a8ecc6114d677fa171ff306",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a8e9f881a39482dd5d8fa8d",
+        "details": {
+          "status": "Under Maintenance"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-08-26T11:22:09.745Z",
+        "updatedAt": "2026-08-26T11:22:09.745Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a8ecc6314d677fa171ff30c",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a8e9f881a39482dd5d8fa8d",
+        "details": {
+          "status": "Idle"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-08-26T11:22:11.429Z",
+        "updatedAt": "2026-08-26T11:22:11.429Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a8ecc6514d677fa171ff312",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a8e9f881a39482dd5d8fa8d",
+        "details": {
+          "status": "Breakdown"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-08-26T11:22:13.094Z",
+        "updatedAt": "2026-08-26T11:22:13.094Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a8ecce214d677fa171ff373",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a8e9f881a39482dd5d8fa8d",
+        "details": {
+          "status": "Running"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-08-26T11:24:18.740Z",
+        "updatedAt": "2026-08-26T11:24:18.740Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a8ecce814d677fa171ff379",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a8e9f881a39482dd5d8fa8d",
+        "details": {
+          "status": "Under Maintenance"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-08-26T11:24:24.632Z",
+        "updatedAt": "2026-08-26T11:24:24.632Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a8ecf6cd271457281e4536c",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a8e9f881a39482dd5d8fa8d",
+        "details": {
+          "status": "Breakdown"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-08-26T11:35:08.627Z",
+        "updatedAt": "2026-08-26T11:35:08.627Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a9178b926f83aa1d765fbe2",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "CREATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a9178b926f83aa1d765fbe0",
+        "details": {
+          "machineName": "abc"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-08-28T12:02:01.939Z",
+        "updatedAt": "2026-08-28T12:02:01.939Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a9178d626f83aa1d765fbed",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "CREATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a9178d626f83aa1d765fbeb",
+        "details": {
+          "machineName": "ewfew"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-08-28T12:02:30.350Z",
+        "updatedAt": "2026-08-28T12:02:30.350Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a9178ee26f83aa1d765fbf8",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "CREATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a9178ee26f83aa1d765fbf6",
+        "details": {
+          "machineName": "efew"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-08-28T12:02:54.414Z",
+        "updatedAt": "2026-08-28T12:02:54.414Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a91790226f83aa1d765fc03",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "CREATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a91790226f83aa1d765fc01",
+        "details": {
+          "machineName": "2vds"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-08-28T12:03:14.826Z",
+        "updatedAt": "2026-08-28T12:03:14.826Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a917b7c26f83aa1d765fcc0",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "CREATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a917b7c26f83aa1d765fcbe",
+        "details": {
+          "machineName": "2026-04-14"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-08-28T12:13:48.725Z",
+        "updatedAt": "2026-08-28T12:13:48.725Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a9272f1dd1fbdf3112e49d0",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "CREATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a9272f0dd1fbdf3112e49ce",
+        "details": {
+          "machineName": "JA-93-280-2C"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-08-29T05:49:37.030Z",
+        "updatedAt": "2026-08-29T05:49:37.030Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a927392dd1fbdf3112e49f4",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "CREATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a927392dd1fbdf3112e49f2",
+        "details": {
+          "machineName": "JA-93-280-2C"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-08-29T05:52:18.189Z",
+        "updatedAt": "2026-08-29T05:52:18.189Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a927408dd1fbdf3112e4a00",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "CREATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a927408dd1fbdf3112e49fe",
+        "details": {
+          "machineName": "JA-93-280-2C"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-08-29T05:54:16.824Z",
+        "updatedAt": "2026-08-29T05:54:16.824Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a9aa02de941c0e105b67538",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "CREATE_OIL_CHANGE",
+        "entityType": "OilChange",
+        "entityId": "6a9aa02de941c0e105b67536",
+        "details": {
+          "machine": "6a927408dd1fbdf3112e49fe"
+        },
+        "createdAt": "2026-03-04T04:10:15.340Z",
+        "updatedAt": "2026-09-04T10:40:45.340Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a9aa3f7e941c0e105b67613",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a927392dd1fbdf3112e49f2",
+        "details": {
+          "status": "Breakdown"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-04T10:56:55.518Z",
+        "updatedAt": "2026-09-04T10:56:55.518Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a9aa408e941c0e105b67647",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a927392dd1fbdf3112e49f2",
+        "details": {
+          "status": "Running"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-04T10:57:12.290Z",
+        "updatedAt": "2026-09-04T10:57:12.290Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a9aa40de941c0e105b6764d",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a927392dd1fbdf3112e49f2",
+        "details": {
+          "status": "Under Maintenance"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-04T10:57:17.031Z",
+        "updatedAt": "2026-09-04T10:57:17.031Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a9aa45be941c0e105b676a2",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a927408dd1fbdf3112e49fe",
+        "details": {
+          "status": "Breakdown"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-04T10:58:35.023Z",
+        "updatedAt": "2026-09-04T10:58:35.023Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a9bc078ba7f06484fa8dd50",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a927408dd1fbdf3112e49fe",
+        "details": {
+          "status": "Under Maintenance"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-05T07:10:48.394Z",
+        "updatedAt": "2026-09-05T07:10:48.394Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a9bc15aba7f06484fa8ddf2",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPLOAD_DOCUMENT",
+        "entityType": "Machine",
+        "entityId": "6a927408dd1fbdf3112e49fe",
+        "details": {
+          "count": 1
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-05T07:14:34.548Z",
+        "updatedAt": "2026-09-05T07:14:34.548Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a9bd40a99e337bf3fbba1d5",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "CREATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a9bd40a99e337bf3fbba1d3",
+        "details": {
+          "machineName": "bfdf"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-05T08:34:18.101Z",
+        "updatedAt": "2026-09-05T08:34:18.101Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a9bd62599e337bf3fbba28b",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "DELETE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a927408dd1fbdf3112e49fe",
+        "ipAddress": "::1",
+        "createdAt": "2026-09-05T08:43:17.593Z",
+        "updatedAt": "2026-09-05T08:43:17.593Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a9bd62899e337bf3fbba295",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "DELETE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a9272f0dd1fbdf3112e49ce",
+        "ipAddress": "::1",
+        "createdAt": "2026-09-05T08:43:20.613Z",
+        "updatedAt": "2026-09-05T08:43:20.613Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a9bd62a99e337bf3fbba29f",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "DELETE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a927392dd1fbdf3112e49f2",
+        "ipAddress": "::1",
+        "createdAt": "2026-09-05T08:43:22.740Z",
+        "updatedAt": "2026-09-05T08:43:22.740Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a9bd62c99e337bf3fbba2a8",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "DELETE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a9bd40a99e337bf3fbba1d3",
+        "ipAddress": "::1",
+        "createdAt": "2026-09-05T08:43:24.782Z",
+        "updatedAt": "2026-09-05T08:43:24.782Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a9bd66f86e4e3ef99ad1571",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "CREATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a9bd66f86e4e3ef99ad156f",
+        "details": {
+          "machineName": "ABS"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-05T08:44:31.694Z",
+        "updatedAt": "2026-09-05T08:44:31.694Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a9bd80786e4e3ef99ad17d6",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "DELETE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a9bd66f86e4e3ef99ad156f",
+        "ipAddress": "::1",
+        "createdAt": "2026-09-05T08:51:19.891Z",
+        "updatedAt": "2026-09-05T08:51:19.891Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a9bd8f738b787fadb79f9e3",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "CREATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a9bd8f738b787fadb79f9e1",
+        "details": {
+          "machineName": "ggwe"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-05T08:55:19.558Z",
+        "updatedAt": "2026-09-05T08:55:19.558Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a9bdad838b787fadb79fad7",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "CREATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a9bdad838b787fadb79fad5",
+        "details": {
+          "machineName": "AIR JET MACHINE"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-05T09:03:20.460Z",
+        "updatedAt": "2026-09-05T09:03:20.460Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a9bdae938b787fadb79faf2",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "UPDATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a9bdad838b787fadb79fad5",
+        "details": {
+          "assetType": "Machine",
+          "machineId": "202502-01",
+          "machineName": "AIR JET MACHINE",
+          "machineNumber": "1",
+          "machineType": "JA-93-190-2C",
+          "company": "SUNSHINE FABRICS",
+          "modelNumber": "20250214-JA",
+          "serialNumber": "20250214-001",
+          "purchaseDate": "2025-01-02",
+          "installationDate": "2025-02-14",
+          "warrantyExpiry": "2026-02-14",
+          "machineImage": ""
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-05T09:03:37.619Z",
+        "updatedAt": "2026-09-05T09:03:37.619Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a9bdb2538b787fadb79fb0e",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "CREATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a9bdb2438b787fadb79fb0c",
+        "details": {
+          "machineName": "COMP-01"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-05T09:04:37.184Z",
+        "updatedAt": "2026-09-05T09:04:37.184Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a9bdb5438b787fadb79fb22",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "CREATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a9bdb5438b787fadb79fb20",
+        "details": {
+          "machineName": "AD-01"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-05T09:05:24.317Z",
+        "updatedAt": "2026-09-05T09:05:24.317Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a9bdf5415953aab5f1d4bb5",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9bdad838b787fadb79fad5",
+        "details": {
+          "status": "Under Maintenance"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-05T09:22:28.944Z",
+        "updatedAt": "2026-09-05T09:22:28.944Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a9be76915953aab5f1d4c5a",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "CREATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a9be76915953aab5f1d4c58",
+        "details": {
+          "machineName": "JA-93-280-2C"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-05T09:56:57.260Z",
+        "updatedAt": "2026-09-05T09:56:57.260Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a9be7bd15953aab5f1d4c7b",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "CREATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a9be7bd15953aab5f1d4c79",
+        "details": {
+          "machineName": "JA-93-280-2C"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-05T09:58:21.967Z",
+        "updatedAt": "2026-09-05T09:58:21.967Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a9be7d815953aab5f1d4c97",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "UPDATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a9be7bd15953aab5f1d4c79",
+        "details": {
+          "assetType": "Machine",
+          "machineId": "202502-03",
+          "machineName": "JA-93-280-2C",
+          "machineNumber": "3",
+          "machineType": "AIR JET MACHINE",
+          "company": "SUNSHINE FABRICS",
+          "modelNumber": "20250214-03",
+          "serialNumber": "JA-20250214-03",
+          "purchaseDate": "2025-02-26",
+          "installationDate": "2025-02-26",
+          "warrantyExpiry": "2026-02-26",
+          "machineImage": ""
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-05T09:58:48.080Z",
+        "updatedAt": "2026-09-05T09:58:48.080Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a9be82e15953aab5f1d4cb8",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "CREATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a9be82e15953aab5f1d4cb6",
+        "details": {
+          "machineName": "JA-93-280-2C"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-05T10:00:14.519Z",
+        "updatedAt": "2026-09-05T10:00:14.519Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a9be8dd15953aab5f1d4cd9",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "CREATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a9be8dd15953aab5f1d4cd7",
+        "details": {
+          "machineName": "JA-93-280-2C"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-05T10:03:09.725Z",
+        "updatedAt": "2026-09-05T10:03:09.725Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a9be95815953aab5f1d4cfa",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "CREATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a9be95815953aab5f1d4cf8",
+        "details": {
+          "machineName": "JA-93-280-2C"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-05T10:05:12.801Z",
+        "updatedAt": "2026-09-05T10:05:12.801Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a9be9c915953aab5f1d4d1b",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "CREATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a9be9c915953aab5f1d4d19",
+        "details": {
+          "machineName": "JA-93-280-2C"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-05T10:07:05.281Z",
+        "updatedAt": "2026-09-05T10:07:05.281Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a9bea2f15953aab5f1d4d3c",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "CREATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a9bea2f15953aab5f1d4d3a",
+        "details": {
+          "machineName": "JA-92-280-2C"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-05T10:08:47.380Z",
+        "updatedAt": "2026-09-05T10:08:47.380Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a9bea3f15953aab5f1d4d58",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "UPDATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a9be82e15953aab5f1d4cb6",
+        "details": {
+          "assetType": "Machine",
+          "machineId": "202502-04",
+          "machineName": "JA-93-280-2C",
+          "machineNumber": "4",
+          "machineType": "AIR JET MACHINE",
+          "company": "SUNSHINE FABRICS",
+          "modelNumber": "20250214-04",
+          "serialNumber": "JA-20250214-04",
+          "purchaseDate": "2025-02-14",
+          "installationDate": "2025-02-16",
+          "warrantyExpiry": "2026-02-16",
+          "machineImage": ""
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-05T10:09:03.691Z",
+        "updatedAt": "2026-09-05T10:09:03.691Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a9bea4b15953aab5f1d4d74",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "UPDATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a9be82e15953aab5f1d4cb6",
+        "details": {
+          "assetType": "Machine",
+          "machineId": "202502-04",
+          "machineName": "JA-93-280-2C",
+          "machineNumber": "10",
+          "machineType": "AIR JET MACHINE",
+          "company": "SUNSHINE FABRICS",
+          "modelNumber": "20250214-04",
+          "serialNumber": "JA-20250214-04",
+          "purchaseDate": "2025-02-14",
+          "installationDate": "2025-02-16",
+          "warrantyExpiry": "2026-02-16",
+          "machineImage": ""
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-05T10:09:15.462Z",
+        "updatedAt": "2026-09-05T10:09:15.462Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a9bea5a15953aab5f1d4d90",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "UPDATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a9be82e15953aab5f1d4cb6",
+        "details": {
+          "assetType": "Machine",
+          "machineId": "202502-04",
+          "machineName": "JA-93-280-2C",
+          "machineNumber": "4",
+          "machineType": "AIR JET MACHINE",
+          "company": "SUNSHINE FABRICS",
+          "modelNumber": "20250214-04",
+          "serialNumber": "JA-20250214-04",
+          "purchaseDate": "2025-02-14",
+          "installationDate": "2025-02-16",
+          "warrantyExpiry": "2026-02-16",
+          "machineImage": ""
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-05T10:09:30.086Z",
+        "updatedAt": "2026-09-05T10:09:30.086Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a9beaab15953aab5f1d4db1",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "CREATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a9beaab15953aab5f1d4daf",
+        "details": {
+          "machineName": "JA-93-280-2C"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-05T10:10:51.796Z",
+        "updatedAt": "2026-09-05T10:10:51.796Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a9beb1815953aab5f1d4dd2",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "CREATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a9beb1815953aab5f1d4dd0",
+        "details": {
+          "machineName": "JA-93-280-2C"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-05T10:12:40.799Z",
+        "updatedAt": "2026-09-05T10:12:40.799Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a9beb6215953aab5f1d4df3",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "CREATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a9beb6215953aab5f1d4df1",
+        "details": {
+          "machineName": "JA-93-280-2C"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-05T10:13:54.376Z",
+        "updatedAt": "2026-09-05T10:13:54.376Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a9bebb515953aab5f1d4e14",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "CREATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a9bebb515953aab5f1d4e12",
+        "details": {
+          "machineName": "JA-93-280-2C"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-05T10:15:17.577Z",
+        "updatedAt": "2026-09-05T10:15:17.577Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a9bec3615953aab5f1d4e4d",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "CREATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a9bec3615953aab5f1d4e4b",
+        "details": {
+          "machineName": "COMP-02"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-05T10:17:26.138Z",
+        "updatedAt": "2026-09-05T10:17:26.138Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa270b50e9bb1c0c0ee41be",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "CREATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6aa270b50e9bb1c0c0ee41bc",
+        "details": {
+          "machineName": "fvv"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-10T08:56:21.779Z",
+        "updatedAt": "2026-09-10T08:56:21.779Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa271400e9bb1c0c0ee4235",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "CREATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6aa271400e9bb1c0c0ee4233",
+        "details": {
+          "machineName": "KI-985"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-10T08:58:40.666Z",
+        "updatedAt": "2026-09-10T08:58:40.666Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa5027594bc121149aa51b7",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "UPDATE_MACHINE",
+        "entityType": "Machine",
+        "entityId": "6a9be7bd15953aab5f1d4c79",
+        "details": {
+          "machineId": "202502-03",
+          "machineName": "JA-93-280-2C",
+          "machineNumber": "3",
+          "machineType": "AIR JET MACHINE",
+          "machineCategory": "loom",
+          "company": "SUNSHINE FABRICS",
+          "modelNumber": "20250214-03",
+          "serialNumber": "JA-20250214-03",
+          "purchaseDate": "2025-02-26",
+          "installationDate": "2025-02-26",
+          "warrantyExpiry": "2026-02-26",
+          "section": "",
+          "shed": "",
+          "brand": "",
+          "rpm": "",
+          "width": "",
+          "assignedEngineer": "",
+          "notes": "",
+          "status": "Running",
+          "pressure": "",
+          "temperature": "",
+          "oilLevel": "",
+          "oilFilterStatus": "",
+          "airFilterStatus": "",
+          "separatorCondition": "",
+          "differentialPressure": "",
+          "oilCarryoverStatus": "",
+          "separatorElementStatus": "",
+          "oRingOrSealStatus": "",
+          "coolantLevel": "",
+          "inletPressure": "",
+          "outletPressure": "",
+          "dewPoint": "",
+          "drainStatus": "",
+          "filterCondition": "",
+          "cleaningStatus": ""
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-12T07:42:45.289Z",
+        "updatedAt": "2026-09-12T07:42:45.289Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa5039394bc121149aa51ed",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9bdad838b787fadb79fad5",
+        "details": {
+          "status": "Running"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-12T07:47:31.091Z",
+        "updatedAt": "2026-09-12T07:47:31.091Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa5039b94bc121149aa51f2",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9bdad838b787fadb79fad5",
+        "details": {
+          "status": "Stopped"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-12T07:47:39.682Z",
+        "updatedAt": "2026-09-12T07:47:39.682Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa503a894bc121149aa5228",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9be8dd15953aab5f1d4cd7",
+        "details": {
+          "status": "Breakdown"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-12T07:47:52.666Z",
+        "updatedAt": "2026-09-12T07:47:52.666Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa503b494bc121149aa525e",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9beaab15953aab5f1d4daf",
+        "details": {
+          "status": "Breakdown"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-12T07:48:04.523Z",
+        "updatedAt": "2026-09-12T07:48:04.523Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa503c094bc121149aa5294",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9bea2f15953aab5f1d4d3a",
+        "details": {
+          "status": "Stopped"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-12T07:48:16.155Z",
+        "updatedAt": "2026-09-12T07:48:16.155Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa503c894bc121149aa52ca",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9be82e15953aab5f1d4cb6",
+        "details": {
+          "status": "Under Maintenance"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-12T07:48:24.152Z",
+        "updatedAt": "2026-09-12T07:48:24.152Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa503d494bc121149aa5300",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9bebb515953aab5f1d4e12",
+        "details": {
+          "status": "Under Maintenance"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-12T07:48:36.809Z",
+        "updatedAt": "2026-09-12T07:48:36.809Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa503f994bc121149aa5391",
+        "user": "6a86c63d1e6d62539dff5561",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9be7bd15953aab5f1d4c79",
+        "details": {
+          "status": "Idle"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-12T07:49:13.416Z",
+        "updatedAt": "2026-09-12T07:49:13.416Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa504bf94bc121149aa548e",
+        "user": "6a8ea0081a39482dd5d8face",
+        "action": "UPDATE_EMPLOYEE",
+        "entityType": "Employee",
+        "entityId": "6a8ea0d81a39482dd5d8fb00",
+        "details": {
+          "name": "mahendran",
+          "employeeId": "SS-20262515"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-12T07:52:31.187Z",
+        "updatedAt": "2026-09-12T07:52:31.187Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa5053c94bc121149aa556a",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9beaab15953aab5f1d4daf",
+        "details": {
+          "status": "Running"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-12T07:54:36.783Z",
+        "updatedAt": "2026-09-12T07:54:36.783Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa5058f94bc121149aa563c",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9be8dd15953aab5f1d4cd7",
+        "details": {
+          "status": "Running"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-12T07:55:59.839Z",
+        "updatedAt": "2026-09-12T07:55:59.839Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa505be94bc121149aa56bb",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9beb6215953aab5f1d4df1",
+        "details": {
+          "status": "Breakdown"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-12T07:56:46.130Z",
+        "updatedAt": "2026-09-12T07:56:46.130Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa505c694bc121149aa56f2",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9beb1815953aab5f1d4dd0",
+        "details": {
+          "status": "Breakdown"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-12T07:56:54.443Z",
+        "updatedAt": "2026-09-12T07:56:54.443Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa505ce94bc121149aa5729",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9beaab15953aab5f1d4daf",
+        "details": {
+          "status": "Breakdown"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-12T07:57:02.002Z",
+        "updatedAt": "2026-09-12T07:57:02.002Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa5063f94bc121149aa5831",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "CREATE_OIL_CHANGE",
+        "entityType": "OilChange",
+        "entityId": "6aa5063f94bc121149aa582f",
+        "details": {
+          "machine": "6a9be9c915953aab5f1d4d19"
+        },
+        "createdAt": "2026-09-12T07:58:55.417Z",
+        "updatedAt": "2026-09-12T07:58:55.417Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa50dbd94bc121149aa5d3a",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "CREATE_MAINTENANCE",
+        "entityType": "Maintenance",
+        "entityId": "6aa50dbd94bc121149aa5d38",
+        "details": {
+          "machine": "6a9beb6215953aab5f1d4df1",
+          "maintenanceType": "Preventive"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-12T08:30:53.224Z",
+        "updatedAt": "2026-09-12T08:30:53.224Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa50dfb94bc121149aa5d85",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "CREATE_MAINTENANCE",
+        "entityType": "Maintenance",
+        "entityId": "6aa50dfb94bc121149aa5d83",
+        "details": {
+          "machine": "6a9bdad838b787fadb79fad5",
+          "maintenanceType": "Preventive"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-12T08:31:55.641Z",
+        "updatedAt": "2026-09-12T08:31:55.641Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa525d094bc121149aa5f1d",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9bebb515953aab5f1d4e12",
+        "details": {
+          "status": "Running"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-12T10:13:36.471Z",
+        "updatedAt": "2026-09-12T10:13:36.471Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa525d694bc121149aa5f23",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9bebb515953aab5f1d4e12",
+        "details": {
+          "status": "Breakdown"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-12T10:13:42.532Z",
+        "updatedAt": "2026-09-12T10:13:42.532Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa525e694bc121149aa5f29",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9bebb515953aab5f1d4e12",
+        "details": {
+          "status": "Idle"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-12T10:13:58.457Z",
+        "updatedAt": "2026-09-12T10:13:58.457Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa525ea94bc121149aa5f2f",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9beb6215953aab5f1d4df1",
+        "details": {
+          "status": "Under Maintenance"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-12T10:14:02.322Z",
+        "updatedAt": "2026-09-12T10:14:02.322Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa525ec94bc121149aa5f35",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9beb1815953aab5f1d4dd0",
+        "details": {
+          "status": "Stopped"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-12T10:14:04.887Z",
+        "updatedAt": "2026-09-12T10:14:04.887Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa525ef94bc121149aa5f3b",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9beaab15953aab5f1d4daf",
+        "details": {
+          "status": "Running"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-12T10:14:07.810Z",
+        "updatedAt": "2026-09-12T10:14:07.810Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa525f194bc121149aa5f41",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9bea2f15953aab5f1d4d3a",
+        "details": {
+          "status": "Running"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-12T10:14:09.593Z",
+        "updatedAt": "2026-09-12T10:14:09.593Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa525f794bc121149aa5f47",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9be82e15953aab5f1d4cb6",
+        "details": {
+          "status": "Breakdown"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-12T10:14:15.545Z",
+        "updatedAt": "2026-09-12T10:14:15.545Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa525f994bc121149aa5f4d",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9be7bd15953aab5f1d4c79",
+        "details": {
+          "status": "Breakdown"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-12T10:14:17.295Z",
+        "updatedAt": "2026-09-12T10:14:17.295Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa525fa94bc121149aa5f53",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9be76915953aab5f1d4c58",
+        "details": {
+          "status": "Breakdown"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-12T10:14:18.637Z",
+        "updatedAt": "2026-09-12T10:14:18.637Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa525fc94bc121149aa5f59",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9bdad838b787fadb79fad5",
+        "details": {
+          "status": "Breakdown"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-12T10:14:20.056Z",
+        "updatedAt": "2026-09-12T10:14:20.056Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa528cf94bc121149aa60b1",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9bebb515953aab5f1d4e12",
+        "details": {
+          "status": "Breakdown"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-12T10:26:23.470Z",
+        "updatedAt": "2026-09-12T10:26:23.470Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa528d794bc121149aa60b7",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9bebb515953aab5f1d4e12",
+        "details": {
+          "status": "Running"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-12T10:26:31.151Z",
+        "updatedAt": "2026-09-12T10:26:31.151Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa5291494bc121149aa60d4",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "CREATE_MAINTENANCE",
+        "entityType": "Maintenance",
+        "entityId": "6aa5291494bc121149aa60d2",
+        "details": {
+          "machine": "6a9beb6215953aab5f1d4df1",
+          "maintenanceType": "Preventive"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-12T10:27:32.296Z",
+        "updatedAt": "2026-09-12T10:27:32.296Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa5291494bc121149aa60da",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9beb6215953aab5f1d4df1",
+        "details": {
+          "status": "Running"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-12T10:27:32.518Z",
+        "updatedAt": "2026-09-12T10:27:32.518Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa5294e94bc121149aa6111",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "CREATE_MAINTENANCE",
+        "entityType": "Maintenance",
+        "entityId": "6aa5294e94bc121149aa610f",
+        "details": {
+          "machine": "6a9bdad838b787fadb79fad5",
+          "maintenanceType": "Preventive"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-12T10:28:30.486Z",
+        "updatedAt": "2026-09-12T10:28:30.486Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa5294e94bc121149aa6117",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9bdad838b787fadb79fad5",
+        "details": {
+          "status": "Running"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-12T10:28:30.658Z",
+        "updatedAt": "2026-09-12T10:28:30.658Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa5295c94bc121149aa6137",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9beb1815953aab5f1d4dd0",
+        "details": {
+          "status": "Breakdown"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-12T10:28:44.716Z",
+        "updatedAt": "2026-09-12T10:28:44.716Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa5296e94bc121149aa613d",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9beb1815953aab5f1d4dd0",
+        "details": {
+          "status": "Running"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-12T10:29:02.040Z",
+        "updatedAt": "2026-09-12T10:29:02.040Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa5297594bc121149aa6143",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9be82e15953aab5f1d4cb6",
+        "details": {
+          "status": "Running"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-12T10:29:09.964Z",
+        "updatedAt": "2026-09-12T10:29:09.964Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa5297794bc121149aa6149",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9be7bd15953aab5f1d4c79",
+        "details": {
+          "status": "Running"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-12T10:29:11.981Z",
+        "updatedAt": "2026-09-12T10:29:11.981Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa5297b94bc121149aa614f",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9be76915953aab5f1d4c58",
+        "details": {
+          "status": "Running"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-12T10:29:15.388Z",
+        "updatedAt": "2026-09-12T10:29:15.388Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa52a5594bc121149aa6177",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9bebb515953aab5f1d4e12",
+        "details": {
+          "status": "Breakdown"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-12T10:32:53.856Z",
+        "updatedAt": "2026-09-12T10:32:53.856Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa531d4254051fcd09e895d",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9beb6215953aab5f1d4df1",
+        "details": {
+          "status": "Breakdown"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-12T11:04:52.818Z",
+        "updatedAt": "2026-09-12T11:04:52.818Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa531d7254051fcd09e8963",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9beb1815953aab5f1d4dd0",
+        "details": {
+          "status": "Breakdown"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-12T11:04:55.677Z",
+        "updatedAt": "2026-09-12T11:04:55.677Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa531da254051fcd09e8969",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9beaab15953aab5f1d4daf",
+        "details": {
+          "status": "Breakdown"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-12T11:04:58.074Z",
+        "updatedAt": "2026-09-12T11:04:58.074Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa531db254051fcd09e896f",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9bea2f15953aab5f1d4d3a",
+        "details": {
+          "status": "Breakdown"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-12T11:04:59.550Z",
+        "updatedAt": "2026-09-12T11:04:59.550Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa531dd254051fcd09e8975",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9be9c915953aab5f1d4d19",
+        "details": {
+          "status": "Breakdown"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-12T11:05:01.407Z",
+        "updatedAt": "2026-09-12T11:05:01.407Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa531e1254051fcd09e897b",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9bdad838b787fadb79fad5",
+        "details": {
+          "status": "Breakdown"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-12T11:05:05.442Z",
+        "updatedAt": "2026-09-12T11:05:05.442Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa7879d2d2940507bd8a5fa",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "CREATE_MAINTENANCE",
+        "entityType": "Maintenance",
+        "entityId": "6aa7879d2d2940507bd8a5f8",
+        "details": {
+          "machine": "6a9bebb515953aab5f1d4e12",
+          "maintenanceType": "Preventive"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-14T05:35:25.193Z",
+        "updatedAt": "2026-09-14T05:35:25.193Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa7879d2d2940507bd8a600",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9bebb515953aab5f1d4e12",
+        "details": {
+          "status": "Running"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-14T05:35:25.386Z",
+        "updatedAt": "2026-09-14T05:35:25.386Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa7908764c4e48413c077f4",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "CREATE_OIL_CHANGE",
+        "entityType": "OilChange",
+        "entityId": "6aa7908664c4e48413c077f2",
+        "details": {
+          "machine": "6a9be9c915953aab5f1d4d19",
+          "oilChangeDate": "2026-02-14T06:13:26.764Z"
+        },
+        "createdAt": "2026-09-14T06:13:27.010Z",
+        "updatedAt": "2026-09-14T06:13:27.010Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa790a264c4e48413c07807",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "CREATE_OIL_CHANGE",
+        "entityType": "OilChange",
+        "entityId": "6aa790a264c4e48413c07805",
+        "details": {
+          "machine": "6a9be9c915953aab5f1d4d19",
+          "oilChangeDate": "2026-09-13T05:00:00.000Z"
+        },
+        "createdAt": "2026-09-14T06:13:54.252Z",
+        "updatedAt": "2026-09-14T06:13:54.252Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa790b664c4e48413c0781a",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "CREATE_OIL_CHANGE",
+        "entityType": "OilChange",
+        "entityId": "6aa790b664c4e48413c07818",
+        "details": {
+          "machine": "6a9be9c915953aab5f1d4d19",
+          "oilChangeDate": "2026-09-13T05:00:00.000Z"
+        },
+        "createdAt": "2026-09-14T06:14:14.166Z",
+        "updatedAt": "2026-09-14T06:14:14.166Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa794f864c4e48413c07963",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "CREATE_OIL_CHANGE",
+        "entityType": "OilChange",
+        "entityId": "6aa794f864c4e48413c07961",
+        "details": {
+          "machine": "6a9be9c915953aab5f1d4d19",
+          "oilChangeDate": "2026-03-13"
+        },
+        "createdAt": "2026-09-14T06:32:24.792Z",
+        "updatedAt": "2026-09-14T06:32:24.792Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa7953564c4e48413c079a9",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "CREATE_MAINTENANCE",
+        "entityType": "Maintenance",
+        "entityId": "6aa7953564c4e48413c079a7",
+        "details": {
+          "machine": "6a9be9c915953aab5f1d4d19",
+          "maintenanceType": "Preventive"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-14T06:33:25.541Z",
+        "updatedAt": "2026-09-14T06:33:25.541Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa7953564c4e48413c079af",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9be9c915953aab5f1d4d19",
+        "details": {
+          "status": "Running"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-14T06:33:25.700Z",
+        "updatedAt": "2026-09-14T06:33:25.700Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa7a54164c4e48413c07bcb",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "CREATE_MAINTENANCE",
+        "entityType": "Maintenance",
+        "entityId": "6aa7a54164c4e48413c07bc9",
+        "details": {
+          "machine": "6a9beb6215953aab5f1d4df1",
+          "maintenanceType": "Preventive"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-14T07:41:54.015Z",
+        "updatedAt": "2026-09-14T07:41:54.015Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa7a54264c4e48413c07bd1",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9beb6215953aab5f1d4df1",
+        "details": {
+          "status": "Running"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-14T07:41:54.191Z",
+        "updatedAt": "2026-09-14T07:41:54.191Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa7b71064c4e48413c07ce1",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9bebb515953aab5f1d4e12",
+        "details": {
+          "status": "Breakdown"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-14T08:57:52.106Z",
+        "updatedAt": "2026-09-14T08:57:52.106Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa7b71e64c4e48413c07d13",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9beb6215953aab5f1d4df1",
+        "details": {
+          "status": "Breakdown"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-14T08:58:06.846Z",
+        "updatedAt": "2026-09-14T08:58:06.846Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa7b72964c4e48413c07d45",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9bebb515953aab5f1d4e12",
+        "details": {
+          "status": "Running"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-14T08:58:17.465Z",
+        "updatedAt": "2026-09-14T08:58:17.465Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa7b72c64c4e48413c07d4b",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9beb6215953aab5f1d4df1",
+        "details": {
+          "status": "Running"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-14T08:58:20.054Z",
+        "updatedAt": "2026-09-14T08:58:20.054Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa7b72f64c4e48413c07d51",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9beb1815953aab5f1d4dd0",
+        "details": {
+          "status": "Running"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-14T08:58:23.305Z",
+        "updatedAt": "2026-09-14T08:58:23.305Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa7b73264c4e48413c07d57",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9beaab15953aab5f1d4daf",
+        "details": {
+          "status": "Running"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-14T08:58:26.344Z",
+        "updatedAt": "2026-09-14T08:58:26.344Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa7b73464c4e48413c07d5d",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9bea2f15953aab5f1d4d3a",
+        "details": {
+          "status": "Running"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-14T08:58:28.707Z",
+        "updatedAt": "2026-09-14T08:58:28.707Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa7b73c64c4e48413c07d63",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9bdad838b787fadb79fad5",
+        "details": {
+          "status": "Running"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-14T08:58:36.246Z",
+        "updatedAt": "2026-09-14T08:58:36.246Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa7b75964c4e48413c07d95",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9bebb515953aab5f1d4e12",
+        "details": {
+          "status": "Stopped"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-14T08:59:05.847Z",
+        "updatedAt": "2026-09-14T08:59:05.847Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa7b76e64c4e48413c07e07",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9bebb515953aab5f1d4e12",
+        "details": {
+          "status": "Breakdown"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-14T08:59:26.827Z",
+        "updatedAt": "2026-09-14T08:59:26.827Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa7d18b64c4e48413c08072",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9beb6215953aab5f1d4df1",
+        "details": {
+          "status": "Breakdown"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-14T10:50:51.357Z",
+        "updatedAt": "2026-09-14T10:50:51.357Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa7d19364c4e48413c080a4",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9bebb515953aab5f1d4e12",
+        "details": {
+          "status": "Running"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-14T10:50:59.002Z",
+        "updatedAt": "2026-09-14T10:50:59.002Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa7d1a364c4e48413c080d6",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9bebb515953aab5f1d4e12",
+        "details": {
+          "status": "Breakdown"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-14T10:51:15.762Z",
+        "updatedAt": "2026-09-14T10:51:15.762Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa8f3e51691f507ea378d10",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9beb1815953aab5f1d4dd0",
+        "details": {
+          "status": "Breakdown"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-15T07:29:41.715Z",
+        "updatedAt": "2026-09-15T07:29:41.715Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa8f43e1691f507ea378e1e",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9bebb515953aab5f1d4e12",
+        "details": {
+          "status": "Running"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-15T07:31:10.969Z",
+        "updatedAt": "2026-09-15T07:31:10.969Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa8f4461691f507ea378e50",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9bebb515953aab5f1d4e12",
+        "details": {
+          "status": "Breakdown"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-15T07:31:18.856Z",
+        "updatedAt": "2026-09-15T07:31:18.856Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa8f44d1691f507ea378e56",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9bebb515953aab5f1d4e12",
+        "details": {
+          "status": "Running"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-15T07:31:25.124Z",
+        "updatedAt": "2026-09-15T07:31:25.124Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa8f46f1691f507ea378ec8",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9bebb515953aab5f1d4e12",
+        "details": {
+          "status": "Breakdown"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-15T07:31:59.721Z",
+        "updatedAt": "2026-09-15T07:31:59.721Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa8f4c11691f507ea378f3c",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "CREATE_MAINTENANCE",
+        "entityType": "Maintenance",
+        "entityId": "6aa8f4c11691f507ea378f3a",
+        "details": {
+          "machine": "6a9bebb515953aab5f1d4e12",
+          "maintenanceType": "Preventive"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-15T07:33:21.655Z",
+        "updatedAt": "2026-09-15T07:33:21.655Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa8f4c11691f507ea378f42",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9bebb515953aab5f1d4e12",
+        "details": {
+          "status": "Running"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-15T07:33:21.838Z",
+        "updatedAt": "2026-09-15T07:33:21.838Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa902c6acc22a3f842fe406",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9bebb515953aab5f1d4e12",
+        "details": {
+          "status": "Breakdown"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-15T08:33:10.942Z",
+        "updatedAt": "2026-09-15T08:33:10.942Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa902d1acc22a3f842fe40c",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9beb6215953aab5f1d4df1",
+        "details": {
+          "status": "Breakdown"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-15T08:33:21.459Z",
+        "updatedAt": "2026-09-15T08:33:21.459Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa902d4acc22a3f842fe412",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9beb1815953aab5f1d4dd0",
+        "details": {
+          "status": "Breakdown"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-15T08:33:24.009Z",
+        "updatedAt": "2026-09-15T08:33:24.009Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa902d7acc22a3f842fe418",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9beaab15953aab5f1d4daf",
+        "details": {
+          "status": "Running"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-15T08:33:27.619Z",
+        "updatedAt": "2026-09-15T08:33:27.619Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa90325acc22a3f842fe437",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "CREATE_MAINTENANCE",
+        "entityType": "Maintenance",
+        "entityId": "6aa90325acc22a3f842fe434",
+        "details": {
+          "machine": "6a9bebb515953aab5f1d4e12",
+          "maintenanceType": "Preventive"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-15T08:34:45.760Z",
+        "updatedAt": "2026-09-15T08:34:45.760Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa9063de19aec76cc9cd7ae",
+        "user": "6a8ea0081a39482dd5d8face",
+        "action": "UPDATE_EMPLOYEE",
+        "entityType": "Employee",
+        "entityId": "6a8ea0d81a39482dd5d8fb00",
+        "details": {
+          "name": "mahendran",
+          "employeeId": "SS-20262515"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-15T08:47:57.673Z",
+        "updatedAt": "2026-09-15T08:47:57.673Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa906ffe19aec76cc9cd87d",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6aa271400e9bb1c0c0ee4233",
+        "details": {
+          "status": "Breakdown"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-15T08:51:11.936Z",
+        "updatedAt": "2026-09-15T08:51:11.936Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa90f26fe8cb2fd78767bb2",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "CREATE_OIL_CHANGE",
+        "entityType": "OilChange",
+        "entityId": "6aa90f26fe8cb2fd78767bb0",
+        "details": {
+          "machine": "6a9bebb515953aab5f1d4e12",
+          "oilChangeDate": "2026-09-15"
+        },
+        "createdAt": "2026-09-15T09:25:58.129Z",
+        "updatedAt": "2026-09-15T09:25:58.129Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa91117fe8cb2fd78767ff2",
+        "user": "6a8ea0081a39482dd5d8face",
+        "action": "UPDATE_EMPLOYEE",
+        "entityType": "Employee",
+        "entityId": "6a8ea0d81a39482dd5d8fb00",
+        "details": {
+          "name": "mahendran",
+          "employeeId": "SS-20262515"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-15T09:34:15.730Z",
+        "updatedAt": "2026-09-15T09:34:15.730Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa937affe8cb2fd7876804c",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9bea2f15953aab5f1d4d3a",
+        "details": {
+          "status": "Breakdown"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-15T12:18:55.775Z",
+        "updatedAt": "2026-09-15T12:18:55.775Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa937e1fe8cb2fd7876806b",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "CREATE_MAINTENANCE",
+        "entityType": "Maintenance",
+        "entityId": "6aa937e1fe8cb2fd78768068",
+        "details": {
+          "machine": "6a9bebb515953aab5f1d4e12",
+          "maintenanceType": "Preventive"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-15T12:19:45.691Z",
+        "updatedAt": "2026-09-15T12:19:45.691Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa9380cfe8cb2fd787680b6",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "CREATE_MAINTENANCE",
+        "entityType": "Maintenance",
+        "entityId": "6aa9380cfe8cb2fd787680b3",
+        "details": {
+          "machine": "6a9beb1815953aab5f1d4dd0",
+          "maintenanceType": "Preventive"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-15T12:20:28.917Z",
+        "updatedAt": "2026-09-15T12:20:28.917Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa93846fe8cb2fd78768103",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "CREATE_MAINTENANCE",
+        "entityType": "Maintenance",
+        "entityId": "6aa93846fe8cb2fd78768100",
+        "details": {
+          "machine": "6a9beb6215953aab5f1d4df1",
+          "maintenanceType": "Preventive"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-15T12:21:26.694Z",
+        "updatedAt": "2026-09-15T12:21:26.694Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa93890fe8cb2fd787681a8",
+        "user": "6a8ea0081a39482dd5d8face",
+        "action": "UPDATE_EMPLOYEE",
+        "entityType": "Employee",
+        "entityId": "6a8ea0d81a39482dd5d8fb00",
+        "details": {
+          "name": "mahendran",
+          "employeeId": "SS-20262515"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-15T12:22:40.526Z",
+        "updatedAt": "2026-09-15T12:22:40.526Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa93913fe8cb2fd78768312",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "CREATE_OIL_CHANGE",
+        "entityType": "OilChange",
+        "entityId": "6aa93913fe8cb2fd78768310",
+        "details": {
+          "machine": "6a9beaab15953aab5f1d4daf",
+          "oilChangeDate": "2026-09-15"
+        },
+        "createdAt": "2026-09-15T12:24:51.700Z",
+        "updatedAt": "2026-09-15T12:24:51.700Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa93a10fe8cb2fd787686d3",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "CREATE_MAINTENANCE",
+        "entityType": "Maintenance",
+        "entityId": "6aa93a0ffe8cb2fd787686d0",
+        "details": {
+          "machine": "6a9bea2f15953aab5f1d4d3a",
+          "maintenanceType": "Preventive"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-15T12:29:04.109Z",
+        "updatedAt": "2026-09-15T12:29:04.109Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aaa554d534b2b6c31405b59",
+        "user": "6a8ea0d81a39482dd5d8fb03",
+        "action": "UPDATE_MACHINE_STATUS",
+        "entityType": "Machine",
+        "entityId": "6a9bebb515953aab5f1d4e12",
+        "details": {
+          "status": "Breakdown"
+        },
+        "ipAddress": "::1",
+        "createdAt": "2026-09-16T08:37:33.122Z",
+        "updatedAt": "2026-09-16T08:37:33.122Z",
+        "__v": 0
+      }
+    ],
+    "SparePart": [],
+    "MaintenanceJob": [
+      {
+        "_id": "6a86b8759da60fa0a9da2bc0",
+        "machine": "6a7c6391c6ac8dcea07aacdd",
+        "whyStopped": "hdgh",
+        "downtimeStart": "2026-08-19T10:18:00.000Z",
+        "downtimeEnd": null,
+        "engineerStarted": "2026-08-20T09:17:00.000Z",
+        "workDone": "gfxhdfxg",
+        "engineerFinished": "2026-08-20T12:17:00.000Z",
+        "sparesUsed": [
+          {
+            "spareName": "hgcghc",
+            "spareNumber": "bbh",
+            "quantity": 1,
+            "price": 0
+          },
+          {
+            "spareName": "hjbh",
+            "spareNumber": "hhv",
+            "quantity": 1,
+            "price": 0
+          }
+        ],
+        "totalCost": 1000,
+        "finalStatus": "Resolved",
+        "nextMaintenanceDate": "2026-08-22T00:00:00.000Z",
+        "createdAt": "2026-08-20T08:19:01.968Z",
+        "updatedAt": "2026-08-20T08:19:01.968Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a86fff42ab87e1179f629fc",
+        "machine": "6a79c1dc295f49d92911c7b0",
+        "whyStopped": "SDFGHJKL",
+        "downtimeStart": "2026-08-19T13:19:00.000Z",
+        "downtimeEnd": "2026-08-20T17:19:00.000Z",
+        "engineerStarted": "2026-08-20T16:19:00.000Z",
+        "engineerName": "HJK",
+        "engineerPhone": "9876543210",
+        "workDone": "QWERUOIPO[OIUYHGF",
+        "engineerFinished": "2026-08-20T07:20:00.000Z",
+        "sparesUsed": [
+          {
+            "spareName": "BEEM",
+            "spareNumber": "DFGH",
+            "quantity": 4,
+            "price": 0
+          }
+        ],
+        "totalCost": 0,
+        "finalStatus": "Partially Fixed",
+        "nextMaintenanceDate": "2027-08-20T00:00:00.000Z",
+        "createdAt": "2026-08-20T13:24:04.125Z",
+        "updatedAt": "2026-08-20T13:24:04.125Z",
+        "downtimeHours": 28,
+        "__v": 0
+      },
+      {
+        "_id": "6a8e91831a39482dd5d8f8ea",
+        "machine": "6a7eea24fc5f83f5f0ce3116",
+        "whyStopped": "efewfwfeewf",
+        "sparesUsed": [],
+        "createdAt": "2026-08-26T07:10:59.841Z",
+        "updatedAt": "2026-08-26T07:10:59.841Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a8e91b91a39482dd5d8f8f3",
+        "machine": "6a7eea24fc5f83f5f0ce3116",
+        "whyStopped": "efwhbfhbwhjf",
+        "sparesUsed": [
+          {
+            "spareName": "odfksfjs",
+            "spareNumber": "5",
+            "quantity": 2500,
+            "photoUrl": "/uploads/1787728313648-218838463.png"
+          }
+        ],
+        "createdAt": "2026-08-26T07:11:53.750Z",
+        "updatedAt": "2026-08-26T07:11:53.750Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a8eccb914d677fa171ff332",
+        "machine": "6a8e9f881a39482dd5d8fa8d",
+        "whyStopped": "breakdown",
+        "sparesUsed": [],
+        "performedBy": "6a8ea0d81a39482dd5d8fb00",
+        "createdAt": "2026-08-26T11:23:37.012Z",
+        "updatedAt": "2026-08-26T11:23:37.012Z",
+        "__v": 0
+      }
+    ],
+    "CompressorMaintenance": [],
+    "AirDryerMaintenance": [
+      {
+        "_id": "6aa9074fe19aec76cc9cd899",
+        "machine": "6aa271400e9bb1c0c0ee4233",
+        "maintenanceType": "Air Dryer Maintenance",
+        "maintenanceDate": "2026-09-15T08:52:30.731Z",
+        "engineerName": "mahendran",
+        "performedBy": "6a8ea0d81a39482dd5d8fb00",
+        "inspectionStatus": "Completed",
+        "remarks": "Machine Status: Idle | vd",
+        "finalStatus": "Attention Required",
+        "approvalStatus": "Submitted",
+        "reminderSent": false,
+        "photos": [
+          "https://res.cloudinary.com/vatot25g/image/upload/v1789462292/mms/file_g6p8pq.png"
+        ],
+        "components": {
+          "airFilter": {
+            "checked": false,
+            "condition": "",
+            "notes": "",
+            "photos": [],
+            "replacementDate": null,
+            "nextReplacementDate": null,
+            "_id": "6aa9074fe19aec76cc9cd89a"
+          },
+          "moistureSeparator": {
+            "checked": false,
+            "condition": "",
+            "notes": "",
+            "photos": [],
+            "replacementDate": null,
+            "nextReplacementDate": null,
+            "_id": "6aa9074fe19aec76cc9cd89b"
+          },
+          "coolant": {
+            "checked": false,
+            "condition": "",
+            "notes": "",
+            "photos": [],
+            "replacementDate": null,
+            "nextReplacementDate": null,
+            "_id": "6aa9074fe19aec76cc9cd89c"
+          },
+          "refrigerant": {
+            "checked": true,
+            "levelPressure": "Normal",
+            "condition": "Leaking",
+            "photos": [
+              "https://res.cloudinary.com/vatot25g/image/upload/v1789462345/mms/file_b3inxo.png"
+            ],
+            "serviceDate": "2026-09-16T00:00:00.000Z",
+            "nextServiceDate": "2026-09-25T00:00:00.000Z",
+            "_id": "6aa9074fe19aec76cc9cd89d"
+          }
+        },
+        "sparesUsed": [],
+        "createdBy": "6a8ea0d81a39482dd5d8fb03",
+        "createdAt": "2026-09-15T08:52:31.034Z",
+        "updatedAt": "2026-09-15T08:52:31.034Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa93c08fe8cb2fd787689ae",
+        "machine": "6aa271400e9bb1c0c0ee4233",
+        "maintenanceType": "Air Dryer Maintenance",
+        "maintenanceDate": "2026-09-15T12:37:28.744Z",
+        "engineerName": "mahendran",
+        "performedBy": "6a8ea0d81a39482dd5d8fb00",
+        "inspectionStatus": "Completed",
+        "remarks": "Machine Status: Running | sdfghj",
+        "finalStatus": "Good",
+        "approvalStatus": "Submitted",
+        "reminderSent": false,
+        "photos": [
+          "https://res.cloudinary.com/vatot25g/image/upload/v1789475662/mms/file_nj0h7p.png"
+        ],
+        "components": {
+          "airFilter": {
+            "checked": true,
+            "condition": "Good",
+            "notes": "",
+            "photos": [
+              "https://res.cloudinary.com/vatot25g/image/upload/v1789475718/mms/file_wzdrhu.png"
+            ],
+            "replacementDate": null,
+            "nextReplacementDate": null,
+            "_id": "6aa93c08fe8cb2fd787689af"
+          },
+          "moistureSeparator": {
+            "checked": false,
+            "condition": "",
+            "notes": "",
+            "photos": [],
+            "replacementDate": null,
+            "nextReplacementDate": null,
+            "_id": "6aa93c08fe8cb2fd787689b0"
+          },
+          "coolant": {
+            "checked": false,
+            "condition": "",
+            "notes": "",
+            "photos": [],
+            "replacementDate": null,
+            "nextReplacementDate": null,
+            "_id": "6aa93c08fe8cb2fd787689b1"
+          },
+          "refrigerant": {
+            "checked": true,
+            "levelPressure": "Low",
+            "condition": "Good",
+            "photos": [],
+            "serviceDate": "2026-09-15T00:00:00.000Z",
+            "nextServiceDate": "2026-09-26T00:00:00.000Z",
+            "_id": "6aa93c08fe8cb2fd787689b2"
+          }
+        },
+        "sparesUsed": [],
+        "createdBy": "6a8ea0d81a39482dd5d8fb03",
+        "createdAt": "2026-09-15T12:37:28.996Z",
+        "updatedAt": "2026-09-15T12:37:28.996Z",
+        "__v": 0
+      }
+    ],
+    "CompanyLayout": [
+      {
+        "_id": "6a91754726f83aa1d765fb3f",
+        "company": "SUNSHINE FABRICS",
+        "width": 3,
+        "length": 4,
+        "isLocked": true,
+        "lockedAt": "2026-09-04T09:49:36.717Z",
+        "lockedBy": "6a86c63d1e6d62539dff5561",
+        "createdAt": "2026-08-28T11:47:19.371Z",
+        "updatedAt": "2026-09-04T09:49:36.722Z",
+        "__v": 0,
+        "machineCount": 12
+      }
+    ],
+    "Report": [
+      {
+        "_id": "6a9bc7a226d8b8ef3039b259",
+        "reportType": "Monthly",
+        "generatedBy": "6a8ea0d81a39482dd5d8fb03",
+        "machine": "6a927408dd1fbdf3112e49fe",
+        "dateRangeStart": "2026-09-01T00:00:00.000Z",
+        "dateRangeEnd": "2026-10-01T00:00:00.000Z",
+        "filters": {
+          "month": "2026-09"
+        },
+        "format": "pdf",
+        "status": "Submitted",
+        "submittedTo": [
+          "general_manager",
+          "owner"
+        ],
+        "historySnapshot": {
+          "maintenance": [
+            {
+              "_id": "6a9aa3b2e941c0e105b675ad",
+              "machine": "6a927408dd1fbdf3112e49fe",
+              "maintenanceType": "Breakdown",
+              "description": "oli problem",
+              "reminderSent": false,
+              "photos": [],
+              "videos": [],
+              "performedBy": "6a8ea0d81a39482dd5d8fb00",
+              "approvalStatus": "Submitted",
+              "maintenanceDate": "2026-09-04T10:55:46.084Z",
+              "createdAt": "2026-09-04T10:55:46.085Z",
+              "updatedAt": "2026-09-04T10:55:46.085Z",
+              "__v": 0
+            }
+          ],
+          "jobs": [],
+          "oilChanges": [
+            {
+              "_id": "6a9aa02de941c0e105b67536",
+              "machine": "6a927408dd1fbdf3112e49fe",
+              "oilChangeDate": "2026-09-04T00:00:00.000Z",
+              "oilType": "zr95",
+              "oilQuantity": 5,
+              "changedBy": "6a8ea0d81a39482dd5d8fb00",
+              "remarks": "now yet to work",
+              "reminderMonthsInterval": 6,
+              "reminderSent": false,
+              "nextOilChangeDate": "2027-03-04T00:00:00.000Z",
+              "createdAt": "2026-09-04T10:40:45.267Z",
+              "updatedAt": "2026-09-05T07:14:03.518Z",
+              "__v": 0
+            }
+          ],
+          "spareParts": []
+        },
+        "createdAt": "2026-09-05T07:41:22.131Z",
+        "updatedAt": "2026-09-05T07:41:22.131Z",
+        "__v": 0
+      },
+      {
+        "_id": "6a9bfb56cba54215ba31f93b",
+        "reportType": "Monthly",
+        "generatedBy": "6a8ea0d81a39482dd5d8fb03",
+        "machine": "6a9bdb5438b787fadb79fb20",
+        "dateRangeStart": "2026-09-01T00:00:00.000Z",
+        "dateRangeEnd": "2026-10-01T00:00:00.000Z",
+        "filters": {
+          "month": "2026-09"
+        },
+        "format": "pdf",
+        "status": "Submitted",
+        "submittedTo": [
+          "general_manager",
+          "owner"
+        ],
+        "historySnapshot": {
+          "maintenance": [],
+          "jobs": [],
+          "oilChanges": [],
+          "spareParts": []
+        },
+        "createdAt": "2026-09-05T11:21:58.335Z",
+        "updatedAt": "2026-09-05T11:21:58.335Z",
+        "__v": 0
+      }
+    ],
+    "LeaveRequest": [
+      {
+        "_id": "6a9bc515151ac8377f572d4d",
+        "employee": "6a8ea0d81a39482dd5d8fb00",
+        "startDate": "2026-09-01T00:00:00.000Z",
+        "endDate": "2026-09-23T00:00:00.000Z",
+        "leaveType": "Sick",
+        "reason": "fewew",
+        "status": "Approved",
+        "createdAt": "2026-09-05T07:30:29.062Z",
+        "updatedAt": "2026-09-05T07:42:13.394Z",
+        "__v": 0,
+        "reviewedAt": "2026-09-05T07:42:13.392Z",
+        "reviewedBy": "6a8ea0081a39482dd5d8face"
+      },
+      {
+        "_id": "6a9bdc6338b787fadb79fd16",
+        "employee": "6a8ea0d81a39482dd5d8fb00",
+        "startDate": "2026-09-07T00:00:00.000Z",
+        "endDate": "2026-09-08T00:00:00.000Z",
+        "leaveType": "Sick",
+        "reason": "jhbgu",
+        "status": "Approved",
+        "createdAt": "2026-09-05T09:09:55.065Z",
+        "updatedAt": "2026-09-05T09:10:17.060Z",
+        "__v": 0,
+        "reviewedAt": "2026-09-05T09:10:17.060Z",
+        "reviewedBy": "6a8ea0081a39482dd5d8face"
+      }
+    ],
+    "WorkLog": [
+      {
+        "_id": "6aa938dcfe8cb2fd78768246",
+        "workType": "small_work",
+        "machine": "6a9beb1815953aab5f1d4dd0",
+        "description": "ghjkl",
+        "photos": [],
+        "doneBy": "6a8ea0d81a39482dd5d8fb00",
+        "createdBy": "6a8ea0d81a39482dd5d8fb03",
+        "status": "Submitted",
+        "submittedTo": [],
+        "createdAt": "2026-09-15T12:23:56.039Z",
+        "updatedAt": "2026-09-15T12:23:56.039Z",
+        "__v": 0
+      },
+      {
+        "_id": "6aa938fdfe8cb2fd787682ab",
+        "workType": "material_handling",
+        "machine": "6a9bebb515953aab5f1d4e12",
+        "materialName": "sdfghj",
+        "quantity": 10,
+        "unit": "100m",
+        "description": "rtyhnbcfy",
+        "photos": [],
+        "doneBy": "6a8ea0d81a39482dd5d8fb00",
+        "createdBy": "6a8ea0d81a39482dd5d8fb03",
+        "status": "Submitted",
+        "submittedTo": [],
+        "createdAt": "2026-09-15T12:24:29.751Z",
+        "updatedAt": "2026-09-15T12:24:29.751Z",
+        "__v": 0
+      }
+    ]
+  }
+}
